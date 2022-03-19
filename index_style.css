@@ -2,9 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-.x {
-    display: block;
-}
 html{
     scroll-behavior: smooth;
 }
@@ -92,7 +89,7 @@ header{
 }
 .banner h1{
     color: white;
-    font-size: 1rem;
+    font-size: .9rem;
     position:absolute;
     top:150px;
     left:15px;
@@ -101,20 +98,21 @@ header{
     font-family: 'Montserrat';
     background: rgba(24, 24, 24, 0.637);
     border-radius: 3%;
-    padding: 10px;
+    padding: 5px;
 }
 .banner a{
-    background: rgba(44, 44, 44, 0.452);
-    color: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    color: rgb(27, 0, 88);
     position: absolute;
     left: 15px;
     top:250px;
     font-weight: 800;
-    text-shadow: -3px 3px 7px #000000;
+    text-shadow: -3px 3px 7px #caa1ff;
+    border-radius: 3%;
 
     box-shadow: -12px 13px 33px -13px rgba(0,0,0,0.75);
--webkit-box-shadow: -12px 13px 33px -13px rgba(0,0,0,0.75);
--moz-box-shadow: -12px 13px 33px -13px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -12px 13px 33px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: -12px 13px 33px -13px rgba(0,0,0,0.75);
 }
 
 /*****/
@@ -155,6 +153,7 @@ main{
     display: block;
     position: absolute;
     width: 80%;
+    max-width: 400px;
     background:rgba(20, 0, 66, 0.89);
     left:50%;
     transform: translateX(-50%);
@@ -171,10 +170,7 @@ main{
 }
 .gg-close-o{
     color: white;
-    cursor: pointer;
-    position: absolute;
-    top: 10px;
-    right: 15px;
+    margin: 15px;
 }
 
 .info-btn{
