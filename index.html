@@ -11,29 +11,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" type="image/x-icon" href="assets/logo.png">
-
+    <!--I frame icons-->
+    <link href="node_modules/css.gg/icons/all.css" rel='stylesheet'>
     <link rel="stylesheet" href="index_style.css">
+    
     <title>Hypnoconect | Hypnothérapeute</title>
 </head>
 <body>
 
-    <!--Banner-->
-    <div class="header-img">
-        <img src="assets/header_image.jpg">
-
-        <h1>Hypnoconect<br>Ici aura lieu une citation quelconque</h1>
-
-    <a href="">Prendre Rendez-vous</a>
-    </div>
-
-    <div class="header">
+    <!--Header-->
+    <header class="header">
         <img src="assets/logo.png" class="logo">
 
         <button class="menu-btn">Menu</button>
 
         <div class="nav-menu close">
 
-                <a href="">Découvrir</a>
+                <a href="#discover">Découvrir</a>
 
                 <a href="">Pour quoi ?</a>
 
@@ -45,7 +39,37 @@
 
         </div>
     
+    </header>
+
+    <!--Banner-->
+    <div class="banner">
+        <img class="banner-img" src="assets/header_image.jpg">
+        <h1>Hypnoconect, ici aura lieu une citation quelconque</h1>
+
+    <a class="general-btn" href="">Prendre Rendez-vous</a>
     </div>
+
+    <main>
+        
+        <div class="sep-bar"></div>
+
+            <button class="general-btn discover" onclick="openDiscover()">Découvrir l'hypnothérapie</button>
+
+            <div id="discover" class="discover-content close-discover">
+                <i class="gg-close-o"></i>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse ad, asperiores odio, magni optio libero eius minima alias quas doloremque sit amet corporis tempora dolor accusantium. Labore cum hic voluptate.
+                Aspernatur eaque error consequuntur tempore? Consequuntur, minus? Expedita officiis impedit commodi reiciendis quam quaerat dolor optio excepturi laborum, dolorem earum nisi temporibus pariatur reprehenderit doloremque dolore quidem eaque veniam corrupti!
+                Ipsam autem magnam sequi pariatur inventore rerum sed tempora vitae natus assumenda veritatis rem accusamus doloribus unde minima aliquid ad blanditiis voluptatum iste, cumque velit. Nostrum deleniti reprehenderit itaque qui.
+                Perferendis delectus porro nemo? Provident tempora fugiat voluptatum officiis similique, expedita, quisquam nulla, ex quidem doloremque saepe quo ullam excepturi qui pariatur ducimus assumenda. Nihil illum culpa doloremque aliquam porro!
+                Iusto vel accusamus veniam ex culpa esse quos, ad similique repudiandae quae, perferendis deserunt ipsa corporis velit animi dolor nam sed molestias architecto, accusantium laborum saepe. Asperiores enim dolores eligendi?
+                Fugit, iste nisi. Aperiam accusantium veniam sunt mollitia accusamus quae aut facere eveniet eaque, deserunt sequi ex rerum doloremque numquam. Quibusdam suscipit asperiores reiciendis vitae explicabo! Nisi ullam cumque asperiores.</p>
+            </div>
+
+        <div class="sep-bar"></div>
+
+        <a class="general-btn info-btn" href="info.html">Infos pratiques</a>
+
+    </main>
 
     <script src="main.js"></script>
 </body>

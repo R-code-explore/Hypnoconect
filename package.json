@@ -1,0 +1,23 @@
+{
+  "name": "real_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "ok"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R-code-explore/Hypnoconect.git"
+  },
+  "author": "Eduard C",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/R-code-explore/Hypnoconect/issues"
+  },
+  "homepage": "https://github.com/R-code-explore/Hypnoconect#readme",
+  "dependencies": {
+    "css.gg": "^2.0.0",
+    "swup": "^2.0.14"
+  }
+}
