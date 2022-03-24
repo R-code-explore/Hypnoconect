@@ -130,6 +130,19 @@ main{
     background: rgb(255, 255, 255);
 }
 
+.first-20{
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #480075;
+    width: 80%;
+    margin: 5px auto;
+
+    background: #FFFFFF;
+box-shadow: -1px -2px 4px rgba(255, 255, 255, 0.25), 1px 3px 9px rgba(0, 0, 0, 0.25), inset 1px 3px 8px -2px rgba(0, 0, 0, 0.39);
+border-radius: 10px;
+}
+
 .sep-bar{
     margin:50px auto;
     height:5px;
@@ -180,12 +193,57 @@ main{
 
 .info-btn{
     background: rgb(25, 0, 65);
-    color: white;
     margin-left: 15px;
+    border: none;
+    border-radius: 3%;
 
     box-shadow: -12px 13px 33px -13px rgba(0,0,0,0.75);
 -webkit-box-shadow: -12px 13px 33px -13px rgba(0,0,0,0.75);
 -moz-box-shadow: -12px 13px 33px -13px rgba(0,0,0,0.75);
+}.info-btn a{
+    color: white;
+}
+
+/*About part*/
+/*About part*/
+.about-content{
+    display: block;
+    padding: 15px;
+    margin:80px auto;
+    border: none;
+    width: 80%;
+    background: #3dd2cc;
+    border-radius: 3%;
+
+    transition: 0.2s ease-in-out;
+}.about-content img{
+    border-radius: 3%;
+}.about-content p{
+    color: white;
+}
+
+/*Footer*/
+/*Footer*/
+footer{
+    display: flex;
+    height: 200px;
+    margin: none;
+    width: 100%;
+    padding: none;
+    background:#121C47;
+    color: white;
+}
+footer div a, footer div p{
+    color: white;
+    text-decoration: none;
+}
+footer div{
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+}
+.info-footer{
+    display: block;
 }
 
 /**Info page**/

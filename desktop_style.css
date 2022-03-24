@@ -115,6 +115,24 @@ main{
     background: rgb(255, 255, 255);
 }
 
+.first-20{
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #480075;
+    max-width: 700px;
+    margin: 5px auto;
+
+    background: #FFFFFF;
+box-shadow: -1px -2px 4px rgba(255, 255, 255, 0.25), 1px 3px 9px rgba(0, 0, 0, 0.25), inset 1px 3px 8px -2px rgba(0, 0, 0, 0.39);
+border-radius: 10px;
+
+transition: 0.3s ease-in-out;
+}.first-20:hover{
+    padding: 20px;
+}
+
+
 .sep-bar{
     margin:50px auto;
     height:5px;
@@ -190,6 +208,27 @@ transition: 0.2s ease-in-out;
 .info-btn a:hover{
     color: aqua;
 }
+
+/*About part*/
+/*About part*/
+.about-content{
+    display: flex;
+    padding: 15px;
+    margin:80px auto;
+    border: none;
+    width: 90%;
+    max-width: 700px;
+    background: #3dd2cc;
+    border-radius: 3%;
+
+    transition: 0.2s ease-in-out;
+}.about-content img{
+    border-radius: 3%;
+}.about-content p{
+    color: white;
+    margin: 10px;
+}
+
 
 /**Info page**/
 /**Info page**/
