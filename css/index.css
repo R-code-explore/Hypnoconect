@@ -1,0 +1,292 @@
+
+/**Banner**/
+/**Banner**/
+.banner{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    background: #121C47;
+}
+
+.banner_content{
+    display: block;
+    width: 50%;
+    max-width: 250px;
+    position: relative;
+    margin: 10px auto;
+}
+
+.banner_btn{
+    display: block;
+    margin: 20px auto;
+    width: 180px;
+    transition: 0.2s ease-in-out;
+
+    box-shadow: -9px 11px 20px -9px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -9px 11px 20px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: -9px 11px 20px -9px rgba(0,0,0,0.75);
+}
+
+.banner_btn:hover{
+    width: 200px;
+    transition: 0.2s ease-in-out;
+}
+
+@media (min-width: 850px){
+    .banner_content{
+        display: flex;
+        width: 80%;
+        max-width: 950px;
+        margin: 10px auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .banner_logo{
+        width: 50%;
+        max-width: 300px;
+    }
+    .banner_btn{
+        display: block;
+        height: 50px;
+        width: 210px;
+        margin: 0;
+        font-size: 1.2em;
+    }.banner_btn:hover{width: 230px;}
+}
+
+/*******************************/
+
+/**intro Index section**/
+
+.intro_index{
+    display: block;
+    width: 80%;
+    max-width: 750px;
+    margin: 20px auto;
+    text-align: center;
+}
+.questions_index{font-weight: bold;}
+.questions_index_2{display: block; text-align: start;}
+
+/*******************************/
+
+/**Navigation index**/
+
+.index_nav{
+    width: 80%;
+    max-width: 850px;
+    display: block;
+    margin: 20px auto;
+}
+.index_nav div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}.index_nav h5{text-align: start; margin-left:5%; margin-bottom: 40px;}
+.index_nav div button > a{
+    text-align: start;
+    color: #480075;
+}.index_nav div button{margin: auto;}
+.index_nav div button > a:hover{
+    color: skyblue;
+}
+
+@media (max-width: 950px){
+    .index_nav div{
+        display: block;
+        width: 100%;
+    }.index_nav div button{margin-bottom: 10px;}
+}
+
+/********************/
+
+/**Index Bande Img group**/
+
+.bandeImage{
+    display: block;
+    position: relative;
+    width: 80%;
+    max-width: 850px;
+    margin: 0 auto;
+    background: black;
+    border-radius: 10px;
+}
+.indexImage{
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    opacity: .4;
+    border-radius: 10px;
+}
+.indexImageText{
+    display: block;
+    position: absolute;
+    color: white;
+    top:50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+@media (min-width: 900px){
+    .indexImageText{
+        display: block;
+        position: absolute;
+        width: 50%;
+        right: 20px;
+        font-size: 1.2em;
+    }
+}
+
+/********************/
+
+/**Humaniste (first index section) **/
+
+.textSection1{
+    display: block;
+    width: 80%;
+    max-width: 750px;
+    padding: 20px;
+    overflow: hidden;
+    margin: 0 auto;
+    height: 330px;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+
+    box-shadow: 11px 9px 50px -21px rgba(20, 0, 102, 0.4) inset;
+-webkit-box-shadow: 11px 9px 50px -21px rgba(20, 0, 102, 0.4) inset;
+-moz-box-shadow: 11px 9px 50px -21px rgba(20, 0, 102, 0.4) inset;
+}
+.openSection1{display: block; margin: 20px auto;}
+
+.textSection1_2{
+    display: block;
+    width: 80%;
+    max-width: 750px;
+    padding: 20px;
+    overflow: hidden;
+    margin: 0 auto;
+    height: auto;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+
+    box-shadow: 11px 9px 50px -21px rgba(20, 0, 102, 0.4) inset;
+-webkit-box-shadow: 11px 9px 50px -21px rgba(20, 0, 102, 0.4) inset;
+-moz-box-shadow: 11px 9px 50px -21px rgba(20, 0, 102, 0.4) inset;
+}
+
+@media (min-width: 1200px){
+    
+}
+
+/**************************************/
+
+/**Approche Section**/
+
+.sectionApproche{
+    position: relative;
+    display: block;
+    width: 80%;
+    max-width: 950px;
+    margin: 40px auto;
+}
+.approcheDiv1{
+    display: block;
+    width: 100%;
+    background-color: #2d0049;
+}.approcheDiv1 img{
+    width: 100%;
+    object-fit: cover;
+    height: 150px;
+    opacity: .6;
+}
+.approcheTitle{
+    display: block;
+    position: absolute;
+    top:100px;
+    left: 20px;
+    color: white;
+}
+
+@media (min-width: 850px){
+    .approcheDiv1 img{
+        width: 100%;
+        object-fit: cover;
+        height: 250px;
+        opacity: .6;
+    }
+    .approcheTitle{
+        top:180px;
+    }
+}
+
+@media (min-width: 1200px){
+    .sectionApproche{
+        display: flex;
+    }
+    .approcheDiv1{
+        display: block;
+        width: 40%;
+        background: none;
+    }.approcheDiv1 img{
+        width: 100%;
+        object-fit: cover;
+        opacity: 1;
+    }
+    .approcheDiv2{
+        width: 55%;
+    }.approcheDiv1, .approcheDiv2{
+        margin: 0 10px;
+    }
+    .approcheTitle{
+        top: 270px;
+        left: 10px;
+        color: black;
+    }
+}
+
+/**************************************/
+
+/**About Section**/
+
+.aboutSection{
+    display: block;
+    width: 80%;
+    max-width: 950px;
+    margin: 0 auto;
+}
+.aboutDiv1{
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+}
+.aboutDiv1 img{
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+@media (min-width: 1200px){
+    .aboutSection{
+        position: relative;
+        display: flex;
+    }
+    .aboutDiv1{
+        display: block;
+        width: 40%;
+        background: none;
+    }
+    .aboutDiv2{
+        width: 55%;
+    }.aboutDiv1, .aboutDiv2{
+        margin: 50px 10px;
+    }
+    .aboutTitle{
+        position: absolute;
+        left:10px;
+    }
+}
+
+/**************************************/

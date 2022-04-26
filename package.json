@@ -1,23 +1,11 @@
 {
-  "name": "real_project",
+  "name": "hc",
   "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
+  "description": "npm hc package",
+  "main": "index.js",
   "scripts": {
-    "test": "ok"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/R-code-explore/Hypnoconect.git"
-  },
-  "author": "Eduard C",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/R-code-explore/Hypnoconect/issues"
-  },
-  "homepage": "https://github.com/R-code-explore/Hypnoconect#readme",
-  "dependencies": {
-    "css.gg": "^2.0.0",
-    "swup": "^2.0.14"
-  }
+  "author": "",
+  "license": "ISC"
 }
