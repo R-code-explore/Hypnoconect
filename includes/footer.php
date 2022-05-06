@@ -1,15 +1,24 @@
 <div class="footer">
-    <h5 class="contact-title titles">Contact et infos</h5>
+
+    <div class="contact_box">
+    
     <div id="contact" class="contact">
+    <h5 class="contact-title titles">Contact et infos</h5>
         <form enctype="multipart/form-data">
-            <input type="text" name="name" placeholder="Votre nom et prénom">
-            <input type="email" name="email" placeholder="Votre email">
-            <input type="tel" name="tel" placeholder="votre numéro de téléphone">
+            <input class="text_input" type="text" name="name" placeholder="Votre nom et prénom">
+            <input class="text_input" type="email" name="email" placeholder="Votre email">
+            <input class="text_input" type="tel" name="tel" placeholder="votre numéro de téléphone">
             <textarea name="mess" placeholder="Votre message ici"></textarea>
-            <input type="file">
+            <input class="file_input" type="file">
 
             <button class="contactBtn general_btn" type="submit">Envoyer</button>
         </form>
+    </div>
+
+    <div class="footer_logo">
+        <img src="<?=$footerLogo?>">
+    </div>
+
     </div>
 
     <div class="infos">
@@ -19,15 +28,14 @@
             <br>
             <br>
             <p><strong>Email:</strong> contact@hypnoconect.com</p>
-            <p><strong>Téléphone:</strong> +33 0 00 00 00 00</p>
+            <p><strong>Téléphone:</strong> <a href="tel:+336-03-51-90-45">+33 6 03 51 90 45</a></p>
             <p><strong>Adresse:</strong> 18 square Pablo Picasso 60740 SAINT MAXIMIN</p>
             <p>
             <strong>Horaires</strong>
             <br>
-            <strong>Cabinet :</strong> Lundi – mardi – jeudi –<br>vendredi de 08h30 à 16h
+            <strong>Cabinet :</strong> Lundi – mardi – jeudi – vendredi<br>de 08h30 à 16h
             <br><br>
-            <strong>Visio :</strong> Mêmes horaires qu’en cabinet<br>+ du lundi au vendredi de 21h à 23h
-            </p>
+            <strong>Visio :</strong> Lundi - Mardi - Jeudi - Vendredi de 8h30 à 16h<br>+ Lundi au Vendredi de 21h à 23h</p>
         </div>
 
         <div class="infoDiv2">
@@ -36,73 +44,115 @@
 
     </div>
 
+    <p class="reserv">© 2022 Hypnoconect. Tout droits réservés.</p>
+
 </div>
 
 <style>
-    .footer{
+    .footer{width: 100%; display: block; background: #121C47; padding-bottom: 1px;}
+
+    .contact_box{
+        display: block;
+        width: 80%;
+        max-width: 950px;
+        margin: auto;
+    }
+
+    /*Contact Form*/
+    /*Contact Form*/
+    .contact{
         display: block;
         width: 100%;
-        padding: 20px 0;
-        background: #480075;
-        color: white;
     }
 
-    .contact-title{
-        display: block;
-        text-align: center;
-        margin: 40px auto;
-    }
+    .contact h5{color: #F5E5FF; line-height: 2em; text-align: center;}
 
-    .contact{
+    .text_input{
         display: block;
         width: 80%;
         max-width: 450px;
-        margin: 20px auto;
-    }
-    .contact form input{
-        display: block;
-        width: 100%;
-        margin: 20px auto;
         padding: 10px;
+        margin: 15px auto;
+        border: none;
         border-radius: 5px;
         text-align: center;
     }
     .contact form textarea{
         display: block;
-        width: 100%;
+        width: 80%;
+        max-width: 450px;
         height: 250px;
         padding: 10px;
+        margin: 20px auto;
+        border: none;
+        border-radius: 5px;
         resize: none;
-        text-align: start;
+    }
+    .file_input{
+        display: block;
+        width: 80%;
+        max-width: 450px;
+        margin: 20px auto;
+        color: white;
     }
     .contactBtn{
         display: block;
+        padding: 10px;
         margin: 20px auto;
+        color: white;
+        background: none;
+        border: solid 1px white;
+        border-radius: 5px;
     }
+
+    .footer_logo{
+        display: block;
+        width: 80%;
+        max-width: 450px;
+        margin: 15px auto;
+    }
+    .footer_logo img{
+        width: 100%;
+    }
+
+    /**********************/
+    /**********************/
 
     .infos{
         display: block;
         width: 80%;
-        max-width: 850px;
-        margin: 80px auto;
+        max-width: 950px;
+        margin: 20px auto;
+        color: white;
     }
 
-    .footer-carte{
-        border-radius: 5px;
-        box-shadow: -9px 11px 20px -9px rgba(0,0,0,0.75);
-        -webkit-box-shadow: -9px 11px 20px -9px rgba(0,0,0,0.75);
-        -moz-box-shadow: -9px 11px 20px -9px rgba(0,0,0,0.75);
-    }
+    .footer-carte{width: 100%;}
+
+    .infoDiv1 a{color: #F5E5FF; font-weight: 500;}
+
+    .reserv{margin: 20px 0; text-align: center; color: white;}
 
     @media (min-width: 950px){
+    
+        .contact_box{
+            display: flex;
+            width: 80%;
+            max-width: 950px;
+            margin: auto;
+        }
+
+        .infoDiv1, .infoDiv2{width: 40%; margin: auto;}
+        .footer-carte{width: 100%;}
+
         .infos{
             display: flex;
             justify-content: space-between;
+            margin: 20px auto;
         }
+
     }
 
 </style>
 
-<script src="<?=$pageJs?>"></script>
 </body>
 </html>

@@ -1,39 +1,16 @@
-/**Fonts**/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-/*******************/
-
-/**Paramètres sizes titres**/
-/**Grands titres h1 // Autres h5**/
-html{scroll-behavior: smooth;}
-body{
-    margin: 0;
+/*Fonts*/
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+/********/
+/********/
+html, body{
+    scroll-behavior: smooth;
 }
-p, a{font-family: 'Roboto', sans-serif;}
+
+body{margin: 0;}
 
 a{text-decoration: none;}
 
-.titles{font-family: 'Montserrat'; font-weight: bold;}
+p, a{line-height: 1.5em;}
 
-.citations{text-align: center;}
-
-.sep_bar{
-    display: block;
-    width: 80%;
-    max-width: 850px;
-    margin: 80px auto;
-    height: 1px;
-    background: grey;
-}
-
-.general_btn{
-    padding: 10px 15px;
-    color: #480075;
-    background-color: white;
-    border: none;
-    border-radius: 5px;
-
-    box-shadow: -9px 11px 20px -9px rgba(0,0,0,0.75);
-    -webkit-box-shadow: -9px 11px 20px -9px rgba(0,0,0,0.75);
-    -moz-box-shadow: -9px 11px 20px -9px rgba(0,0,0,0.75);
-}
+p, a, input{font-family: 'Roboto'; font-weight: 300;}
