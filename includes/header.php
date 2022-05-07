@@ -33,19 +33,34 @@
 </head>
 <body>
 
-<div class="header">
+<a href="#header" id="scrollUp"><img src="./assets/to_top.png"></a>
 
-    <div class="logo_header">
-    <img src="">
-    </div>
+<div id="header" class="header">
+
+    <img class="logo_header" src="<?=$logoHeaderLink?>">
 
     <div class="icons">
-        <div class="icon1_action"><a href=""><img src=""></a></div>
-        <div class="icon1_action"><a href="tel:+336-03-51-90-45">Appeler</a></div>
+        <div class="icon_action icon1"><a href=""><img src=""><img src="./assets/calendar_icone.png"></a></div>
+        <div class="icon_action icon2"><a href="tel:+336-03-51-90-45"><img src="./assets/phone_icone.png"></a></div>
+        <div class="icon_action icon3"><a href="#localisation"><img src="./assets/localisation_icone.png"></a></div>
     </div>
 
-    <div class="nav_menu_desktop"></div>
-    <div class="nav_menu_phone"></div>
+    <button class="nav_btn"><img src="./assets/menu_btn.svg"></button>
+    <div class="nav_menu_phone">
+        <a class="navlink_phone" href="">Infos pratiques</a>
+        <a class="navlink_phone" href="">Indications</a>
+        <a class="navlink_phone" href="">Prendre RDV</a>
+        <a class="navlink_phone" href="">Blog</a>
+        <a class="navlink_phone" href="">Contact</a>
+    </div>
+
+    <div class="nav_menu_desktop">
+        <a class="navlink_desktop" href="">Infos pratiques</a>
+        <a class="navlink_desktop" href="">Indications</a>
+        <a class="navlink_desktop" href="">Prendre RDV</a>
+        <a class="navlink_desktop" href="">Blog</a>
+        <a class="navlink_desktop" href="">Contact</a>
+    </div>
 
 </div>
 
@@ -54,11 +69,90 @@
 #scrollUp
 {
 position: fixed;
-bottom : 20px;
+bottom : 30px;
 right: -100px;
 opacity: 0.5;
 z-index: 100;
 }
+
+#scrollUp img{width: 40px;}
+
+/**Navbar header**/
+.header{
+    height: 100px;
+    background: #121C47;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 5%;
+}
+/*****************/
+
+/**Logo header**/
+.logo_header{
+    display: block;
+    width: 175px;
+    padding: 0;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (min-width: 750px){
+    .logo_header{width:250px;}
+}
+/**************/
+
+/**Icons sets*/
+.icons{
+    display: flex;
+    width: 80px;
+    height: 30px;
+    justify-content: space-between;
+    margin: 5px 0px;
+}
+.icon_action a{margin-right: 10px; margin-left: -20px;}
+.icon1 a img{width: 15px;}
+.icon2 a img{width: 13px;}
+.icon3 a img{width: 10px;}
+
+@media (min-width: 750px){
+    .icons{
+        width:200px;
+    }
+    .icon1 a img{width:30px;}
+    .icon2 a img{width: 27px;}
+    .icon3 a img{width: 20px;}
+}
+
+/***********/
+
+/**Phone menu**/
+.nav_btn{
+    background: white;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}.nav_btn img{margin-top:-5px;}
+
+.nav_menu_phone{
+    display: block;
+    width: 150px;
+    background: #121C47;
+
+    position: absolute;
+    top:110px;
+    right: 15px;
+}.nav_menu_phone a{
+    display: block;
+    margin: 10px;
+}
+
+@media (min-width: 950px){
+    .nav_btn{display:none;}
+    .nav_menu_phone{display: none;}
+}
+
+/************/
 
 </style>
 
@@ -68,11 +162,11 @@ z-index: 100;
 
 jQuery(function(){
     $(function () {
-        $(window).scroll(function () { //Fonction appelée quand on descend la page
-            if ($(this).scrollTop() > 200 ) {  // Quand on est à 200pixels du haut de page,
-                $('#scrollUp').css('right','30px'); // Replace à 10pixels de la droite l'image
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 200 ) {
+                $('#scrollUp').css('right','30px');
             } else { 
-                $('#scrollUp').removeAttr( 'style' ); // Enlève les attributs CSS affectés par javascript
+                $('#scrollUp').removeAttr( 'style' );
             }
         });
     });
