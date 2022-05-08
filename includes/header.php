@@ -46,20 +46,20 @@
     </div>
 
     <button class="nav_btn"><img src="./assets/menu_btn.svg"></button>
-    <div class="nav_menu_phone">
-        <a class="navlink_phone" href="">Infos pratiques</a>
-        <a class="navlink_phone" href="">Indications</a>
-        <a class="navlink_phone" href="">Prendre RDV</a>
-        <a class="navlink_phone" href="">Blog</a>
-        <a class="navlink_phone" href="">Contact</a>
+    <div class="nav_menu_phone" id="nav_menu_phone">
+        <a class="navlink_phone" href=""><?=$firstBtn?></a>
+        <a class="navlink_phone" href=""><?=$secondBtn?></a>
+        <a class="navlink_phone" href=""><?=$thirdBtn?></a>
+        <a class="navlink_phone" href=""><?=$fourthBtn?></a>
+        <a class="navlink_phone" href=""><?=$fifthBtn?></a>
     </div>
 
     <div class="nav_menu_desktop">
-        <a class="navlink_desktop" href="">Infos pratiques</a>
-        <a class="navlink_desktop" href="">Indications</a>
-        <a class="navlink_desktop" href="">Prendre RDV</a>
-        <a class="navlink_desktop" href="">Blog</a>
-        <a class="navlink_desktop" href="">Contact</a>
+        <a class="navlink_desktop" href=""><?=$firstBtn?></a>
+        <a class="navlink_desktop" href=""><?=$secondBtn?></a>
+        <a class="navlink_desktop" href=""><?=$thirdBtn?></a>
+        <a class="navlink_desktop" href=""><?=$fourthBtn?></a>
+        <a class="navlink_desktop" href=""><?=$fifthBtn?></a>
     </div>
 
 </div>
@@ -91,13 +91,18 @@ z-index: 100;
 .logo_header{
     display: block;
     width: 175px;
-    padding: 0;
+    padding: 5px;
     height: 100%;
-    object-fit: cover;
+    object-fit:cover;
+    margin-right: 10px;
 }
 
 @media (min-width: 750px){
-    .logo_header{width:250px;}
+    .logo_header{width:250px; height: 140%; padding: 0; margin-top:-10px;}
+}
+
+@media (min-width: 1250px){
+    .logo_header{width:350px; height: 175%; padding: 0; margin-top:-15px;}
 }
 /**************/
 
@@ -126,6 +131,8 @@ z-index: 100;
 /***********/
 
 /**Phone menu**/
+.nav_menu_desktop{display: none;}
+
 .nav_btn{
     background: white;
     height: 30px;
@@ -135,21 +142,35 @@ z-index: 100;
 }.nav_btn img{margin-top:-5px;}
 
 .nav_menu_phone{
-    display: block;
+    display: none;
     width: 150px;
     background: #121C47;
+    border-radius: 5px;
 
     position: absolute;
     top:110px;
     right: 15px;
+    z-index: 100;
 }.nav_menu_phone a{
     display: block;
+    color: white;
     margin: 10px;
 }
 
-@media (min-width: 950px){
+@media (min-width: 1050px){
     .nav_btn{display:none;}
     .nav_menu_phone{display: none;}
+
+    .nav_menu_desktop{
+        display: flex;
+        width: 50%;
+        max-width: 650px;
+        margin-top: 8px;
+        justify-content: space-between;
+    }.navlink_desktop{
+        color: #F5E5FF;
+        font-weight:500;
+    }
 }
 
 /************/
@@ -173,5 +194,22 @@ jQuery(function(){
 });
 
 ////
+
+//nav menu phone
+
+const navMenuPhone = document.querySelector('.nav_menu_phone')
+const navMenuBtn = document.querySelector('.nav_btn')
+
+navMenuBtn.addEventListener('click', () => {
+    if(navMenuPhone.style.display == "block"){
+        navMenuPhone.style.display = "none"
+    }else{
+        navMenuPhone.style.display = "block"
+    }
+})
+
+if(window.innerWidth > 1050){
+    navMenuPhone.style.display = "none"
+}
 
 </script>

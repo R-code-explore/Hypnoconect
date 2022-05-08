@@ -1,0 +1,82 @@
+/**Banner**/
+.banner{
+    display: block;
+    width: 100%;
+    height: 250px;
+    background: black;
+}
+.banner img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    object-fit: cover;
+}
+.banner_section{
+    display: block;
+    position:absolute;
+    width: 80%;
+    max-width: 450px;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.banner_section p{
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+.banner_btn{
+    display: block;
+    text-align: center;
+    width: 80%;
+    max-width: 450px;
+    color: #121C47;
+    font-weight: 500;
+    background: white;
+    margin: auto;
+}
+
+@media (min-width: 1050px){
+    .banner{height: 450px;}
+    .banner_section{
+        top: 220px;
+        left: 70%;
+        right: 100px;
+    }
+    .banner_section p{font-size: 1.5em;}
+    .banner_section a{margin-top:100px; font-size: 1.5em;}
+}
+
+/************/
+
+/**Index settings**/
+
+.underBanner_section{
+    display: block;
+    width: 80%;
+    max-width: 950px;
+    margin: auto;
+}
+.questions_underBanner{text-align: center; font-weight: 500;}
+.link_underBanner{
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    background: #121C47;
+}.link_underBanner a{color: white;}
+
+.ombre_cadre{
+    margin: 40px auto;
+}
+
+.aboutImage{height: auto;}
+
+@media (min-width: 550px){
+    .aboutImage{
+        width: 100%;
+        transform:translateY(-200px);
+        opacity: .6;
+        object-fit: cover;
+    }
+}
