@@ -1,0 +1,57 @@
+.title_blog{
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+li{
+    margin: 10px 0;
+}
+
+.ombre_cadre{
+    margin: 40px auto;
+}
+
+.humanPoints{
+    display: block;
+    width: 100%;
+    max-width: 850px;
+    margin: auto;
+    margin-bottom: 40px;
+    color: white;
+}
+.humanPoints div{
+    width: 100%;
+    padding: 10px;
+    display: block;
+    background: #121C47;
+}
+.humanPoints div > .title_blog{
+    text-align: center;
+    color: white;
+}
+
+.blog_img{
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+}
+
+@media (min-width:1050px){
+    .humanPoints{
+        display: flex;
+    }
+    .humanPoints div{
+        width: 50%;
+    }
+}
+
+.innerShSection{
+    padding: 15px;
+    width: 100%;
+
+    box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+
+}.innerShSection .title_blog{
+    font-size: 1em;
+}

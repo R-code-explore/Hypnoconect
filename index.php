@@ -37,7 +37,7 @@ $fifthBtn = "Contact";
 $firstBtnLink;
 $secondBtnLink;
 $thirdBtnLink;
-$fourthBtnLink;
+$fourthBtnLink = "./blog.php";
 $fifthBtnLink;
 /////////////////
 

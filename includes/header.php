@@ -47,19 +47,19 @@
 
     <button class="nav_btn"><img src="./assets/menu_btn.svg"></button>
     <div class="nav_menu_phone" id="nav_menu_phone">
-        <a class="navlink_phone" href=""><?=$firstBtn?></a>
-        <a class="navlink_phone" href=""><?=$secondBtn?></a>
-        <a class="navlink_phone" href=""><?=$thirdBtn?></a>
-        <a class="navlink_phone" href=""><?=$fourthBtn?></a>
-        <a class="navlink_phone" href=""><?=$fifthBtn?></a>
+        <a class="navlink_phone" href="<?=$firstBtnLink?>"><?=$firstBtn?></a>
+        <a class="navlink_phone" href="<?=$secondBtnLink?>"><?=$secondBtn?></a>
+        <a class="navlink_phone" href="<?=$thirdBtnLink?>"><?=$thirdBtn?></a>
+        <a class="navlink_phone" href="<?=$fourthBtnLink?>"><?=$fourthBtn?></a>
+        <a class="navlink_phone" href="<?=$fifthBtnLink?>"><?=$fifthBtn?></a>
     </div>
 
     <div class="nav_menu_desktop">
-        <a class="navlink_desktop" href=""><?=$firstBtn?></a>
-        <a class="navlink_desktop" href=""><?=$secondBtn?></a>
-        <a class="navlink_desktop" href=""><?=$thirdBtn?></a>
-        <a class="navlink_desktop" href=""><?=$fourthBtn?></a>
-        <a class="navlink_desktop" href=""><?=$fifthBtn?></a>
+        <a class="navlink_desktop" href="<?=$firstBtnLink?>"><?=$firstBtn?></a>
+        <a class="navlink_desktop" href="<?=$secondBtnLink?>"><?=$secondBtn?></a>
+        <a class="navlink_desktop" href="<?=$thirdBtnLink?>"><?=$thirdBtn?></a>
+        <a class="navlink_desktop" href="<?=$fourthBtnLink?>"><?=$fourthBtn?></a>
+        <a class="navlink_desktop" href="<?=$fifthBtnLink?>"><?=$fifthBtn?></a>
     </div>
 
 </div>
