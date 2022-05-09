@@ -35,10 +35,10 @@ $fourthBtn = "Prendre RDV";
 $fifthBtn = "Contact";
 
 $firstBtnLink = "./index.php";
-$secondBtnLink;
-$thirdBtnLink;
+$secondBtnLink = "./info.php";
+$thirdBtnLink = "./indi.php";
 $fourthBtnLink;
-$fifthBtnLink;
+$fifthBtnLink = "#contact";
 /////////////////
 
 //inluce header
@@ -381,4 +381,124 @@ etc.</p>
     <p class="para subTitle_blog"><i>2. Niveaux de la communication : contenu et relation</i></p>
     <p class="para">Tout message comporte deux sens : d’une part, il communique une information sur des évènements, des opinions, des ressentis, des expériences… D’autre part, il manifeste directement ou indirectement quelque chose sur la relation entre les interlocuteurs.</p>
 
+    <div class="innerShSection">
+        <p class="para title_blog">Exemple :</p>
+        <p class="para">
+        Dans un couple, l’un des deux partenaires décide d’inviter une connaissance, qu’il a croisé en faisant ses
+        courses, sans en informer l’autre.
+        <br>
+        Partenaire 1 : Devine qui j’ai croisé en allant au supermarché ?
+        <br>
+        Partenaire 2 : Qui ?
+        <br>
+        Partenaire 1 : Kévin !
+        <br>
+        Partenaire 2 : Ça fait longtemps qu’on n’avait pa s eu de ses nouvelles ! Il devient quoi ?
+        <br>
+        Partenaire 1 : Tu pourras lui poser la question ce soir, il vient dîner !
+        <br>
+        Partenaire 2 (agacé) : Tu plaisantes, j’espère !
+        <br>
+        Partenaire 1 : Ça ne te fait pas plaisir ?
+        <br>
+        Partenaire 2 (énervé) : Ce n’est pas la ques tion ! Tu aurais pu me consulter avant ! C’est toujours pareil avec
+        toi : tu me mets toujours sur le fait accompli...
+        <br>
+        Nous pouvons remarquer dans ce bref dialogue que deux niveaux de communication se jouent L’un sur le
+        contenu, l’invitation de l’ami ; et l ’autre sur la relation entre les deux, avoir le droit de prendre une initiative
+        sans consulter l’autre.
+        </p>
+    </div>
+    <br>
+    <p class="para subTitle_blog">3. Ponctuation des séquences de communication</p>
+    <p class="para">La communication est un système circulaire d'échanges. Le comportement de l'un des interlocuteurs induit le comportement de l'autre, qui lui-même influence le comportement du premier etc. Parfois nous faisons face à des situations qui amènent à des incompréhensions car nous n’avons pas à disposition tous les éléments nécessaires pour réagir de manière adéquate.</p>
+    <br>
+    
+    <div class="innerShSection">
+        <p class="para title_blog">Exemple :</p>
+        <p class="para">
+        Soit dans un café, une femme drague le barman. Plus le barman évite la dame, plus elle insiste. Plus elle
+        insiste, plus le barman l’évite… <br>
+        Ce qui donne le schéma suivant :
+        </p>
+    </div>
+
+    <img src="./assets/blog_img3.PNG" class="blog_img">
+
+    <p class="para subTitle_blog">4. Deux modes de communication : digital et analogique</p>
+    <p class="para">La communication digitale, qui représente 7% de la communication, transmet les informations au travers du langage verbal.</p>
+    <p class="para">La communication analogique, qui représente 93% de la communication, comprend tout le côté paraverbal et non verbal.</p>
+
+    <div class="innerShSection">
+        <p class="para title_blog">Exemples de communications analogiques :</p>
+        <p class="para">
+        Dans une relation de couple, un des deux partenaires offre un cadeau à l’autre. La signification digitale se
+construit en fonction de la manière dont l’autre perçoit ce cadeau de la part du partenaire : gage d’affec tion,
+aveu d’une trahison, pardon…
+        </p>
+        <p class="para">
+            Quelle signification digitale ont la rougeur, la transpiration, les hésitations lors d’un examen oral ? On peut y
+voir une preuve que la personne ne maîtrise pas son sujet mais on peut y voir aussi une personne stressée
+par l’investissement qu’elle a engagé pour pouvoir réussir cet examen…
+        </p>
+    </div>
+
+    <p class="para">La communication analogique offre plusieurs interprétations digitales en fonction de notre manière de percevoir les choses et du contexte.</p>
+
+    <p class="para subTitle_blog">5. Deux types d'intéractions : symétrique ou complémentaire</p>
+
+    <p class="para">
+    L’interaction symétrique repose sur l’égalité entre les interlocuteurs. Elle se caractérise par des comportements semblables. Cette égalité s’installe par des messages en miroir : tout comportement de l’un amène un comportement similaire chez l’autre.
+    </p>
+
+    <p class="para">
+    L’interaction complémentaire s’appuie sur la reconnaissance et l’acceptation de la différence. Les interlocuteurs s’adaptent en fonction des comportements de l’un et de l’autre. Chaque message répond à celui du partenaire en obéissant aux règles qu’elles impliquent (position haute et basse).
+    </p>
+
+    <div class="sep_bar"></div>
+
+    <p class="para title_blog">IV. L’outil indispensable en systémie : la modélisation</p>
+
+    <p class="para">Lors d’un accompagnement, l’intervenant modélise le système pour mettre en évidence son fonctionnement (avec le(s) « client(s) » éventuellement). Cet outil permet de prendre du recul sur la situation en répondant aux questions suivantes : Qui fait quoi qui pose problème ? A qui ? En quoi est-ce un problème ? Qu’empêche-t-il ? Que génère-t-il ? Et de prendre conscience de notre mode de fonctionnement pour pouvoir agir différemment.</p>
+
+    <div class="innerShSection">
+        <p class="para title_blog">Exemple :</p>
+        <p class="para">D ans une famille, le mari se plaint que sa femme ne lui laisse pas assez de place dans son rôle de père. Celle ci
+l’entend et essaie tant bien que mal de s’effacer sauf qu’à chaque fois qu’il n’arrive pas à se faire éco uter par ses
+2 enfants, il l’appelle à l’aide et elle intervient. Du coup, il est frustré et en colère et n’arrive pas à trouver sa
+place. Sa femme en a marre des reproches de son mari, de faire l’arbitre entre ses enfants et lui…et prend donc
+contact avec un praticien de l’approche systémique pour dénouer la situation.</p>
+        <p class="para">
+        Au fil de l’entretien, l’intervenant recueille suffisamment d’informations pour modéliser la situation
+Qui a un problème ? La femme. <br>
+Quel est le problème ? Elle en a marre que son conjoin t lui dise qu’elle prend trop de place et de faire l’arbitre
+entre ses enfants et lui. <br>
+En quoi est ce un problème ? Cela engendre des tensions dans le couple. <br>
+Que met elle en place pour résoudre son problème ? Elle le critique. Elle part faire un tour au moment où c’est
+lui qui « doit gérer ». Elle intervient quand son mari échoue…
+        </p>
+        <p class="para"><u>Modélisation</u></p>
+    </div>
+
+    <img src="./assets/blog_img4.PNG" class="blog_img">
+    <p class="para">La modélisation est un schéma qui montre les interactions entre les différents acteurs du système de manière simplifiée et qui a pour but de mettre en lumière le message à remplacer.</p>
+
+    <div class="innerShSection">
+        <p class="para">Ici : Vas y, gère ! Et en cas d’échec, j'interviendrai.</p>
+    </div>
+
+    <p class="para">En systémie, l’intervenant ne vise pas un grand changement. Il cherche avec le « client » un objectif minimal car il considère qu’un changement même minime modifiera l’ensemble du système. Cela permet également de respecter l’écologie de la personne.</p>
+
+    <div class="innerShSection">
+    <p class="para">Revenons à la situation, après discussion, la « cliente » a décidé de remplacer son message par « faisons
+ensemble » et ainsi de discuter avec son mari des règles négociables et non négociables concernant les
+enfants. Pour cela, elle s’est fixé un objectif minimal qui est « échouons ensemble ».</p>
+    </div>
+    <br><br>
 </section>
+
+<?php
+
+include './includes/footer.php';
+
+?>

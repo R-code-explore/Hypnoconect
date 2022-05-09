@@ -34,11 +34,11 @@ $thirdBtn = "Prendre RDV";
 $fourthBtn = "Blog";
 $fifthBtn = "Contact";
 
-$firstBtnLink;
-$secondBtnLink;
+$firstBtnLink = "./info.php";
+$secondBtnLink = "./indi.php";
 $thirdBtnLink;
 $fourthBtnLink = "./blog.php";
-$fifthBtnLink;
+$fifthBtnLink = "#contact";
 /////////////////
 
 //inluce header

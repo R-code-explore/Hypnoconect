@@ -36,6 +36,86 @@ li{
     margin: 20px auto;
 }
 
+/*Indications page*/
+.blueImgDiv{
+    width: 100%;
+    background: white;
+    height: 70px;
+    margin-bottom: 20px;
+}.blueImgDiv img{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
+@media (min-width: 1050px){
+    .blueImgDiv img{
+        position: relative;
+        display: block;
+        height: 100%;
+        width: auto;
+        left: 100%;
+        transform: translateX(-50%);
+    }
+}
+
+.indiImgDiv{
+    width: 100%;
+}
+.indiImgDiv div{
+    width: 280px;
+    margin: auto;
+    background:black;
+    overflow: hidden;
+    position: relative;
+    margin-top: 40px;
+}
+.indiImgDiv div img{
+    display: block;
+    width: 100%;
+    opacity: .4;
+}.indiImgDiv div p{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    top:0;
+    color: white;
+}
+
+@media (min-width: 1050px){
+    .indiImgDiv{
+        display: flex;
+        width: 100%;
+        max-width: 1200px;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .indiImgDiv div{
+        width: 250px;
+        margin: 10px;
+    }
+    .indiImgDiv div img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }.indiImgDiv div p{
+        
+    }
+}
+
+.rdv_indiBtn{
+    display: block;
+    background: #121C47;
+    margin: auto;
+}
+.rdv_indiBtn a{color: #F5E5FF; font-weight: 500;}
+/**********/
+
 @media (min-width:1050px){
     .humanPoints{
         display: flex;
@@ -55,3 +135,63 @@ li{
 }.innerShSection .title_blog{
     font-size: 1em;
 }
+
+/*Info page*/
+
+.title_info{font-size: 2em; text-align: center;}
+
+.rdv_infoBtn{
+    display: block;
+    background: #F5E5FF;
+    margin: 20px 0;
+}.rdv_infoBtn a{color: #121C47; font-weight: 500;}
+
+.infoImgDeroulDiv{
+    width: 100%;
+    display: block;
+}
+.infoImgDeroulDiv > div{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: block;
+    background: black;
+    margin: 40px auto;
+}
+.infoImgDeroulDiv > div img{
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+    object-fit: cover;
+}
+.infoImgDeroulDiv > div .textContain{
+    width: 100%;
+    display: block;
+    position: absolute;
+    top:0;
+    color: white;
+    padding: 15px;
+}.textContain li, .textContain p{color: white; font-weight: 500; font-size: .8em;}
+
+@media (min-width: 1050px){
+    .infoImgDeroulDiv{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }  
+    
+    .infoImgDeroulDiv > div{
+        position: relative;
+        width: 45%;
+        height: 350px;
+        display: block;
+        background: black;
+        margin: 40px auto;
+    }
+
+    .textContain li{margin-left:10px;}
+
+    .textContain li, .textContain p{color: white; font-weight: 500; font-size: 1em;}
+}
+
+/**********/
