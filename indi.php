@@ -110,7 +110,7 @@ Un problème sans solution est un problème mal posé " A. Einstein</i></p>
 
         <div>
             <img src="./assets/indiImg2.jpg">
-            <p class="para"><strong>Liées au comportement :</strong>addictions, compulsions, troubles
+            <p class="para"><strong>Liées au comportement :</strong><br> addictions, compulsions, troubles
 alimentaires, troubles du sommeil,
 troubles de concentration, troubles
 sexuels…</p>

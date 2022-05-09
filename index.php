@@ -79,6 +79,8 @@ proches de nous. Notre tâche doit être de nous libérer nous-mêmes de cette
 prison en étendant notre cercle de compassion pour embrasser toutes créatures
 vivantes et la nature entière dans sa beauté. " A. Einstein</i></section>
 
+<div class="sep_bar"></div>
+
 <section class="index_discoverSection about">
     <div class="img_text">
         <img class="img_imgtext aboutImage" src="./assets/220301_151.jpg">

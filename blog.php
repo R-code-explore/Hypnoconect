@@ -50,7 +50,7 @@ include './includes/header.php';
 <section>
     <div class="img_text">
         <img src="./assets/questceHypnose.jpg" class="img_imgtext">
-        <p class="title_imgText">Qu'est-ce que l'hypnose humaniste</p>
+        <p class="title_imgText">Qu'est-ce que l'hypnose humaniste ?</p>
     </div>
 
     <p class="para title_blog">I. L’hypnose humaniste</p>
@@ -196,7 +196,7 @@ Le conscient est fait de perceptions. Il reconnait l’espace-temps grâce à no
 
     <div class="img_text">
         <img src="./assets/a_quoi_ressemble.jpg" class="img_imgtext">
-        <p class="title_imgText">Voir à quoi ça ressemble</p>
+        <p class="title_imgText">Voir à quoi ça ressemble...</p>
     </div>
 
     <p class="para title_blog">Entretien préalable – recueil des informations</p>
@@ -289,7 +289,7 @@ Le conscient est fait de perceptions. Il reconnait l’espace-temps grâce à no
 
     <div class="img_text">
         <img src="./assets/approche_sys.jpg" class="img_imgtext">
-        <p class="title_imgText">Qu'est-ce que l'approche systémique</p>
+        <p class="title_imgText">Qu'est-ce que l'approche systémique ?</p>
     </div>
 
     <p class="para">L’approche systémique est issue de plusieurs travaux scientifiques (mathématiques, cybernétique, linguistique). Dans les années 1960, L’Ecole Palo Alto, petite ville de Californie, est née. Elle regroupe plusieurs chercheurs tels que G. Bateson, Von Foerster, Satir, Weakland, Haley, Don Jackson, Watzlawick etc. Ils se sont appuyés sur ces différents travaux pour développer de nouveaux concepts et de nouvelles pratiques dans les domaines des relations humaines et de la thérapie. Cette approche s’intéresse à la manière dont le problème se maintient dans le présent en prenant en compte la complexité du contexte et les interactions des personnes concernées par le problème.</p>

@@ -35,7 +35,7 @@
             <br>
             <strong>Cabinet :</strong> Lundi – mardi – jeudi – vendredi<br>de 08h30 à 16h
             <br><br>
-            <strong>Visio :</strong> Lundi - Mardi - Jeudi - Vendredi de 8h30 à 16h<br>+ Lundi au Vendredi de 21h à 23h</p>
+            <strong>Visio :</strong> Lundi - Mardi - Jeudi - Vendredi de 8h30 à 23h</p>
         </div>
 
         <div class="infoDiv2">
