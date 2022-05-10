@@ -68,6 +68,11 @@ include './includes/header.php';
 solliciter. Ensuite, à vous de choisir, si vous souhaitez poursuivre ou non cet accompagnement.</p>
 </section>
 
+<section class="navIndexDiv">
+    <button class="general_btn navIndexBtn"><a href="#aboutSection">Mon parcours</a></button>
+    <button class="general_btn navIndexBtn"><a href="#approcheSection">Mon approche</a></button>
+</section>
+
 <div class="sep_bar"></div>
 
 <section class="ombre_cadre"><i class="citations">" Un être humain est une partie d'un tout que nous appelons Univers , une partie
@@ -82,7 +87,7 @@ vivantes et la nature entière dans sa beauté. " A. Einstein</i></section>
 <div class="sep_bar"></div>
 
 <section class="index_discoverSection about">
-    <div class="img_text">
+    <div class="img_text" id="aboutSection">
         <img class="img_imgtext aboutImage" src="./assets/220301_151.jpg">
         <p class="title_imgText">Mon parcours</p>
     </div>
@@ -115,7 +120,7 @@ Je suis les liens que je tisse avec les autres. " A. Jacquard</i></section>
 <div class="sep_bar"></div>
 
 <section class="index_discoverSection approche">
-<div class="img_text">
+<div class="img_text" id="approcheSection">
         <img class="img_imgtext approcheImage" src="./assets/220301_051.jpg">
         <p class="title_imgText">Mon approche</p>
     </div>
@@ -138,7 +143,7 @@ Je suis les liens que je tisse avec les autres. " A. Jacquard</i></section>
 
     <section class="ombre_cadre"><i class="citations">" C'est avec la logique que nous prouvons et avec l'intuition que nous trouvons." H. Poincaré</i></section>
 
-    <a class="para" href="">En savoir plus sur l’approche systémique (lien hypertexte)</a>
+    <a class="para" href="./blog.php#appSysBlog">En savoir plus sur l’approche systémique >></a>
 </section>
 
 <div class="sep_bar"></div>
@@ -158,31 +163,29 @@ Je suis les liens que je tisse avec les autres. " A. Jacquard</i></section>
 
     <p class="para">Bien que cela puisse paraître assez étonnant au premier abord, <strong>notre cerveau ne fait pas la distinction entre le réel et l’imaginaire.</strong></p>
 
-    <div class="sep_bar_inSection"></div>
-
+    <div class="innerShSection inShSection">
     <p class="para">
     Prenons un exemple, vous êtes seul(e) chez vous, tranquille dans votre lit, sur le point de vous endormir. Il fait noir. Quand tout à coup, vous entendez des bruits inhabituels qui proviennent de l’entrée. Vous vous mettez à imaginer divers scénarios, peut être quelqu’un tente de s’introduire chez vous ? Peut-être même est-il déjà à l’intérieur ? Finalement, pour vous rassurer, vous allez voir ce qui se passe et vous vous rendez compte que c’est juste le chat qui joue avec les clés. Peu importe la cause du bruit, notre imaginaire a fait le travail et nous déclenche l’émotion de la peur pour nous prévenir d’un éventuel danger.
     </p>
-
-    <div class="sep_bar_inSection"></div>
+    </div>
 
     <p class="para">
     En <strong>hypnose humaniste</strong>, le praticien considère comme vrai tout ce qui est imaginé par la personne. Il utilise cette capacité du cerveau et le langage de l’inconscient, <strong>l’intuition</strong>, pour pouvoir saisir les <strong>symboles</strong> qui contiennent toute la mémoire de vos expériences de vie, toutes les informations qui vous constituent, qui font de vous ce que vous êtes aujourd’hui… La parole crée : plus vous décrirez vos ressentis et plus cela vous paraîtra palpable et saisissable.
     </p>
 
     <section class="ombre_cadre"><i class="citations">"
-Le corps est l'atelier de l'âme où l'esprit vient faire ses gammes. Hildegarde
+Le corps est l'atelier de l'âme où l'esprit vient faire ses gammes. " Hildegarde
 de Bingen</i></section>
 
     <p class="para">En utilisant la <strong>thérapie symbolique, l’hypnose humaniste permet au conscient de gagner en conscience sur les mécanismes inconscients</strong>, mettre en lumière les parts d’ombre. Par des <strong>suggestions positives</strong>, le praticien vous accompagne à atteindre un certain état d’être dans le but de laisser votre <strong>intuition</strong>, votre <strong>imagination</strong> s’exprimer et agir sur le <strong>niveau inconscient</strong>. Il vous conduit ainsi à pouvoir supprimer, modifier ou transformer vos propres symboles selon votre convenance. Vos actions auront alors un impact sur votre manière de percevoir et ressentir les choses, et d’avoir un nouveau regard, vous ouvrant la voie vers d’autres possibles.</p>
 
     <section class="ombre_cadre"><i class="section">"
-Toute réalisation a d’abord été un rêve dans la tête de quelqu’un. A. Einstein</i></section>
+Toute réalisation a d’abord été un rêve dans la tête de quelqu’un. " A. Einstein</i></section>
 
-    <a href="" class="para">En savoir plus sur l’hypnose humaniste (lien hypertexte)</a>
+    <a href="./blog.php" class="para">En savoir plus sur l’hypnose humaniste >></a>
     <br>
     <br>
-    <a href="" class="para">Voir à quoi ça ressemble (lien hypertexte)</a>
+    <a href="./blog.php#aboutHyp" class="para">Voir à quoi ça ressemble >></a>
     <br>
     <br>
 

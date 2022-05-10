@@ -52,6 +52,32 @@
 
 /**Index settings**/
 
+.navIndexDiv{
+    display: block;
+    width: 100%;
+}
+
+.navIndexBtn{
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    margin: 40px auto;
+    background: #F5E5FF;
+    transition: .3s ease-in-out;
+}
+.navIndexBtn a{
+    text-align: center;
+    color: #121C47;
+    font-weight: 500;
+}
+.navIndexBtn:hover{
+    padding: 1em;
+    transition: .3s ease-in-out;
+}
+.navIndexBtn a:hover{
+    color: skyblue;
+}
+
 .underBanner_section{
     display: block;
     width: 80%;
@@ -79,4 +105,15 @@
         opacity: .6;
         object-fit: cover;
     }
+}
+
+.innerShSection{
+    padding: 15px;
+    width: 100%;
+
+    box-shadow: inset 0px 5px 10px 0px rgba(97, 0, 86, 0.5);
+    border-radius: 5px;
+}
+.inShSection{
+    margin: 40px auto;
 }

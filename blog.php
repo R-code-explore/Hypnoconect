@@ -54,13 +54,13 @@ include './includes/header.php';
     </div>
 
     <p class="para title_blog">I. L’hypnose humaniste</p>
-    <p class="para subTitle_blog"><i>1. Définition</i></p>
+    <p class="para subTitle_blog">1. Définition</p>
     <p class="para">
     Contrairement aux autres formes d’Hypnoses qui dissocient, l’Hypnose Humaniste, fondée par Olivier Lockert, en 2000, associe la personne avec elle-même et le monde autour d’elle pour qu’elle puisse agir sur ses troubles et blessures d’ordre psychologique. Elle peut ainsi établir un véritable changement.
     L’Hypnose Humaniste, utilise, pour cela, des inductions dites « en ouverture » pour atteindre un Etat de Conscience Augmentée et implique une vision globale de la Vie.
     Elle permet donc de réunifier la personne avec le meilleur d’elle-même. Ceci va lui permettre de prendre les commandes de sa vie grâce aux symboles, aux sensations et à son intuition qu’elle capte lorsqu’elle est en Etat de Conscience Augmentée. Le thérapeute ou elle-même cherche alors à réduire la frontière naturelle entre l’Inconscient et le conscient pour fusionner avec sa plus grande conscience et se sentir un avec tout, connectée à la Vie.
     </p>
-    <p class="para subTitle_blog"><i>2. Particularités</i></p>
+    <p class="para subTitle_blog">2. Particularités</p>
     <div class="humanPoints">
         <div>
             <p class="title_blog">Hypnoses dissociantes</p>
@@ -84,14 +84,14 @@ include './includes/header.php';
         </div>
     </div>
 
-    <p class="para subTitle_blog"><i>3. Les niveaux qui nous constituent</i></p>
+    <p class="para subTitle_blog">3. Les niveaux qui nous constituent</p>
     <p class="para">Nous sommes des êtres multidimensionnels :</p>
     <img class="blog_img" src="./assets/blog_img1.PNG">
 
     <div class="sep_bar"></div>
 
     <p class="para title_blog">II. La Conscience</p>
-    <p class="para subTitle_blog"><i>1. Présentation</i></p>
+    <p class="para subTitle_blog">1. Présentation</p>
     <p class="para">La « Conscience » majuscule, aussi appelée « Imagination », est un champs infini d’informations à l’origine de tout ce qui existe. L’étymologie du mot « information » vient du verbe « informare » qui signifie « qui donne forme à… »</p>
     <p class="para">On peut la comparer à un soleil dont nous sommes les divers rayons. En effet, elle est tout ce que nous sommes, reliés les uns aux autres puisqu’elle donne forme à toutes choses.</p>
     <p class="para">Grâce à l’imagination, notre esprit puise dans cette source infinie de tous les possibles. Elle nous permet d’explorer tous les univers possibles afin d’en ramener les graines dans notre vie quotidienne.</p>
@@ -99,7 +99,7 @@ include './includes/header.php';
     <p class="ombre_cadre"><i class="citations">"
 Toute réalisation a d’abord été un rêve dans la tête de quelqu’un " A. Einstein</i></p>
 
-    <p class="para subTitle_blog"><i>2. Caractéristiques</i></p>
+    <p class="para subTitle_blog">2. Caractéristiques</p>
     <p class="para">
         <ul>
             <li>La Conscience est omniprésente. Nous la ressentons toujours. Par exemple, c’est grâce à elle qu’on sait que l’on rêve. C’est par elle que nous voyons, ressentons et pensons.</li>
@@ -122,7 +122,7 @@ Toute réalisation a d’abord été un rêve dans la tête de quelqu’un " A. 
     <p class="para">En Hypnose Humaniste, l’Inconscient est tout ce que l’on n’est pas encore conscient. Il s’agit d’un ensemble d’automatismes dont on peut prendre conscience. Une fois conscientisé, on peut le considérer comme notre Automate.</p>
     <p class="para">Il porte la mémoire de notre histoire de vie et ainsi nos blessures intérieures. Il déclenche chacun de nos ressentis et forge notre caractère. C’est par le biais de la Conscience qu’en Hypnose Humaniste, nous le soignons.</p>
 
-    <p class="para subTitle_blog"><i>1. Fonctions</i></p>
+    <p class="para subTitle_blog">1. Fonctions</p>
 
     <p class="para">Il existe trois fonctions qui déterminent les trois strates citées ci-dessous respectivement :</p>
 
@@ -134,7 +134,7 @@ Toute réalisation a d’abord été un rêve dans la tête de quelqu’un " A. 
         </ul>
     </p>
 
-    <p class="para subTitle_blog"><i>2. Strates</i></p>
+    <p class="para subTitle_blog">2. Strates</p>
 
     <p class="para"><u>Strate 1 : Cornelle</u></p>
     <p class="para">Le ventre est le domaine symbolique de cette strate : quand les problèmes nous empêchent de dormir, nous coupent l’appétit, quand la peur tord le ventre…</p>
@@ -194,7 +194,7 @@ Le conscient est fait de perceptions. Il reconnait l’espace-temps grâce à no
     <p class="para">En Hypnose Humaniste, la personne, étant en Etat de Conscience Augmentée, prend conscience de ses propres mécanismes, au travers des symboles. Ceux-ci lui permettent d’évoluer et de vivre plus heureuse. Elle trouve elle-même les solutions qui lui permettent d’agir au niveau de son moral ou de son évolution. Elle peut également avoir un nouveau regard sur elle et sur le monde qui l’entoure.</p>
     <p class="para">On dit que si on nettoie un grain de sable, c’est toute la plage qui en bénéficie car elle est devenue plus propre.</p>
 
-    <div class="img_text">
+    <div class="img_text" id="aboutHyp">
         <img src="./assets/a_quoi_ressemble.jpg" class="img_imgtext">
         <p class="title_imgText">Voir à quoi ça ressemble...</p>
     </div>
@@ -287,7 +287,7 @@ Le conscient est fait de perceptions. Il reconnait l’espace-temps grâce à no
 
     <div class="sep_bar"></div>
 
-    <div class="img_text">
+    <div class="img_text" id="appSysBlog">
         <img src="./assets/approche_sys.jpg" class="img_imgtext">
         <p class="title_imgText">Qu'est-ce que l'approche systémique ?</p>
     </div>
@@ -353,7 +353,7 @@ le texte chaque fois que cela est nécessaire.</p>
 
     <p class="para">(D’après Une logique de la communication P. Watzlawick - J.H. Beavin - D.Jackson).</p>
 
-    <p class="para subTitle_blog"><i>1. L’impossibilité de ne pas communiquer</i></p>
+    <p class="para subTitle_blog">1. L’impossibilité de ne pas communiquer</p>
 
     <p class="para">Toute communication influe sur le comportement.</p>
 
@@ -378,7 +378,7 @@ entre les 2 interlocuteurs.</li>
 etc.</p>
     </div>
     <p class="para"></p>
-    <p class="para subTitle_blog"><i>2. Niveaux de la communication : contenu et relation</i></p>
+    <p class="para subTitle_blog">2. Niveaux de la communication : contenu et relation</p>
     <p class="para">Tout message comporte deux sens : d’une part, il communique une information sur des évènements, des opinions, des ressentis, des expériences… D’autre part, il manifeste directement ou indirectement quelque chose sur la relation entre les interlocuteurs.</p>
 
     <div class="innerShSection">
@@ -421,9 +421,10 @@ etc.</p>
         insiste, plus le barman l’évite… <br>
         Ce qui donne le schéma suivant :
         </p>
-    </div>
 
-    <img src="./assets/blog_img3.PNG" class="blog_img">
+        <img src="./assets/blog_img3.PNG" class="blog_img">
+    </div>
+    <br>
 
     <p class="para subTitle_blog">4. Deux modes de communication : digital et analogique</p>
     <p class="para">La communication digitale, qui représente 7% de la communication, transmet les informations au travers du langage verbal.</p>
@@ -442,6 +443,7 @@ voir une preuve que la personne ne maîtrise pas son sujet mais on peut y voir a
 par l’investissement qu’elle a engagé pour pouvoir réussir cet examen…
         </p>
     </div>
+    <br>
 
     <p class="para">La communication analogique offre plusieurs interprétations digitales en fonction de notre manière de percevoir les choses et du contexte.</p>
 
@@ -478,9 +480,11 @@ Que met elle en place pour résoudre son problème ? Elle le critique. Elle part
 lui qui « doit gérer ». Elle intervient quand son mari échoue…
         </p>
         <p class="para"><u>Modélisation</u></p>
-    </div>
 
-    <img src="./assets/blog_img4.PNG" class="blog_img">
+        <img src="./assets/blog_img4.PNG" class="blog_img">
+    </div>
+    <br>
+
     <p class="para">La modélisation est un schéma qui montre les interactions entre les différents acteurs du système de manière simplifiée et qui a pour but de mettre en lumière le message à remplacer.</p>
 
     <div class="innerShSection">

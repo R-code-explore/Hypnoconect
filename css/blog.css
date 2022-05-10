@@ -62,56 +62,71 @@ li{
     }
 }
 
-.indiImgDiv{
+.carousel{
     width: 100%;
+    max-width: 650px;
+    margin: 40px auto;
+    height: auto;
+    max-height: 350px;
+    transition: 0.2s ease-in-out;
 }
-.indiImgDiv div{
-    width: 280px;
-    margin: auto;
-    background:black;
-    overflow: hidden;
-    position: relative;
-    margin-top: 40px;
+
+.carousel-item{
+    background: black;
+    border-radius: 10px;
+    height: 280px;
 }
-.indiImgDiv div img{
+.carousel-item img{
     display: block;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     opacity: .4;
-}.indiImgDiv div p{
+    border-radius: 10px;
+}.carousel-item p{
     display: block;
     width: 100%;
-    padding: 10px;
+    padding: 10%;
     position: absolute;
     top:0;
     color: white;
 }
 
-@media (min-width: 1050px){
-    .indiImgDiv{
-        display: flex;
+@media (min-width: 500px){
+    .carousel{
         width: 100%;
-        max-width: 1200px;
-        justify-content: space-between;
-        margin: auto;
+        max-width: 650px;
+        margin: 40px auto;
+        height: auto;
+        max-height: 350px;
+        overflow: hidden;
+        transition: 0.2s ease-in-out;
     }
-
-    .indiImgDiv div{
-        width: 250px;
-        margin: 10px;
+    
+    .carousel-item{
+        background: black;
+        border-radius: 10px;
     }
-    .indiImgDiv div img{
+    .carousel-item img{
+        display: block;
         width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }.indiImgDiv div p{
-        
+        opacity: .4;
+        border-radius: 10px;
+    }.carousel-item p{
+        display: block;
+        width: 100%;
+        padding: 10%;
+        font-size: 1.2em;
+        position: absolute;
+        top:0;
+        color: white;
     }
 }
 
 .rdv_indiBtn{
     display: block;
     background: #121C47;
-    margin: auto;
+    margin: 0;
 }
 .rdv_indiBtn a{color: #F5E5FF; font-weight: 500;}
 /**********/
@@ -129,7 +144,7 @@ li{
     padding: 15px;
     width: 100%;
 
-    box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 5px 10px 0px rgba(97, 0, 86, 0.5);
     border-radius: 5px;
 
 }.innerShSection .title_blog{

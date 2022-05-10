@@ -92,11 +92,10 @@ Un problème sans solution est un problème mal posé " A. Einstein</i></p>
 <p class="para">L’accompagnement par <strong>l’hypnose humaniste</strong> et <strong>l’approche systémique</strong> peut alors vous être utile :</p>
     <li>Pour gérer et régler les problématiques suivantes :</li>
 
-</section>
-
-<div class="indiImgDiv">
-        
-        <div>
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+  <div class="carousel-inner">
+    
+    <div class="carousel-item active">
             <img src="./assets/indiImg1.jpg">
             <p class="para"><strong>Gestion émotionnelle :</strong> peur,
             colère, tristesse, stress, anxiété,
@@ -106,17 +105,19 @@ Un problème sans solution est un problème mal posé " A. Einstein</i></p>
             rejet, d’abandon, d’injustice,
             d’humiliation, de trahison, de
             culpabilité, de mal-être…</p>
-        </div>
-
-        <div>
+    </div>
+    
+    <div class="carousel-item">
             <img src="./assets/indiImg2.jpg">
-            <p class="para"><strong>Liées au comportement :</strong><br> addictions, compulsions, troubles
-alimentaires, troubles du sommeil,
-troubles de concentration, troubles
-sexuels…</p>
-        </div>
-
-        <div>
+            <p class="para">
+                <strong>Liées au comportement :</strong><br> addictions, compulsions, troubles
+                alimentaires, troubles du sommeil,
+                troubles de concentration, troubles
+                sexuels…
+            </p>
+    </div>
+    
+    <div class="carousel-item">
             <img src="./assets/indiImg3.jpg">
             <p class="para">
                 <strong>Deuils et étapes de vie :</strong>
@@ -128,17 +129,30 @@ sexuels…</p>
                 entrée dans la vie active, départ à
                 la retraite, maladie, accident…
             </p>
-        </div>
+    </div>
 
-        <div>
+    <div class="carousel-item">
             <img src="./assets/indiImg4.jpg">
             <p class="para">
-            Ou simplement pour votre
+            Ou simplement pour votre <br>
             <strong>développement personnel…</strong>
             </p>
-        </div>
-
     </div>
+  
+    </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+</section>
+
+
 
     <section>
     <p class="ombre_cadre"><i class="citations">
@@ -162,6 +176,7 @@ diagnostics, à prescrire, à modifier ou à supprimer tout traitement médical.
 vous a amené à me solliciter, vos
 attentes et vos motivations
             </p>
+            <button class="general_btn rdv_indiBtn"><a href="">Prendre RDV</a></button>
         </div>
 
         <div>
@@ -180,7 +195,6 @@ humaniste l’approche et
 systémique</p>
         </div>
     </div>
-    <button class="general_btn rdv_indiBtn"><a href="">Prendre RDV</a></button>
     <br><br>
 
 <style>

@@ -49,7 +49,7 @@
 </div>
 
 <style>
-    .footer{width: 100%; display: block; background: #121C47; padding-bottom: 1px;}
+    .footer{width: 100%; display: block; background: #121C47; padding-bottom: 1px; padding-top: 40px;}
 
     .contact_box{
         display: block;

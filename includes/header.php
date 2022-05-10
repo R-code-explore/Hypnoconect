@@ -134,7 +134,7 @@ z-index: 100;
 .nav_menu_desktop{display: none;}
 
 .nav_btn{
-    background: white;
+    background: #F5E5FF;
     height: 30px;
     border: none;
     border-radius: 5px;
