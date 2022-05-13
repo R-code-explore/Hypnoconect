@@ -36,7 +36,7 @@ $fifthBtn = "Contact";
 
 $firstBtnLink = "./info.php";
 $secondBtnLink = "./indi.php";
-$thirdBtnLink;
+$thirdBtnLink = "https://raimond-code.com/rdv_test/";
 $fourthBtnLink = "./blog.php";
 $fifthBtnLink = "#contact";
 /////////////////
@@ -54,7 +54,7 @@ include './includes/header.php';
         grâce à l’hypnose humaniste et
         l’approche systémique…</p>
 
-        <a class="general_btn banner_btn" href="">Prendre rendez-vous</a>
+        <a class="general_btn banner_btn" href="https://raimond-code.com/rdv_test/">Prendre rendez-vous</a>
     </div>
 </div>
 
@@ -63,14 +63,17 @@ include './includes/header.php';
 <section class="underBanner_section">
     <p class="questions_underBanner">Stressé(e) ? Fatigué(e) ? Submergé(e) ?<br><br>Vous cherchez à prendre du recul sur une situation ? à avancer dans votre vie plus sereinement ? à
 (re)trouver une certaine qualité dans vos relations ? Un certain sens dans vos actions ?</p>
-    <button class="general_btn link_underBanner"><a href="">1er rdv de 20 min gratuit sans engagement en visio</a></button>
+    <button class="general_btn link_underBanner"><a href="https://raimond-code.com/rdv_test/">1er rdv de 20 min gratuit sans engagement en visio</a></button>
     <p class="para p_underBanner">Ce 1er rdv nous permet de faire connaissance et de comprendre les raisons qui vous ont amené à me
 solliciter. Ensuite, à vous de choisir, si vous souhaitez poursuivre ou non cet accompagnement.</p>
 </section>
 
+<div class=sep_bar></div>
+
 <section class="navIndexDiv">
-    <button class="general_btn navIndexBtn"><a href="#aboutSection">Mon parcours</a></button>
-    <button class="general_btn navIndexBtn"><a href="#approcheSection">Mon approche</a></button>
+    <a class="general_btn navIndexBtn" href="#aboutSection">Mon parcours</a>
+    <a class="general_btn navIndexBtn" href="#approcheSection">Mon approche</a>
+    <a class="general_btn navIndexBtn" href="#Comment">Comment et pourquoi ça fonctionne ?</a>
 </section>
 
 <div class="sep_bar"></div>
@@ -143,14 +146,14 @@ Je suis les liens que je tisse avec les autres. " A. Jacquard</i></section>
 
     <section class="ombre_cadre"><i class="citations">" C'est avec la logique que nous prouvons et avec l'intuition que nous trouvons." H. Poincaré</i></section>
 
-    <a class="para" href="./blog.php#appSysBlog">En savoir plus sur l’approche systémique >></a>
+    <a class="para paralink" href="./blog.php#appSysBlog">En savoir plus sur l’approche systémique >></a>
 </section>
 
 <div class="sep_bar"></div>
 
 <section class="index_discoverSection">
     <div class="img_text">
-        <img class="img_imgtext" src="./assets/dreamstime_xxl_166401875.jpg">
+        <img class="img_imgtext" id="Comment" src="./assets/dreamstime_xxl_166401875.jpg">
         <p class="title_imgText">Comment et pourquoi l’hypnose humaniste fonctionne ?</p>
     </div>
 
@@ -182,10 +185,10 @@ de Bingen</i></section>
     <section class="ombre_cadre"><i class="section">"
 Toute réalisation a d’abord été un rêve dans la tête de quelqu’un. " A. Einstein</i></section>
 
-    <a href="./blog.php" class="para">En savoir plus sur l’hypnose humaniste >></a>
+    <a href="./blog.php" class="para paralink">En savoir plus sur l’hypnose humaniste >></a>
     <br>
     <br>
-    <a href="./blog.php#aboutHyp" class="para">Voir à quoi ça ressemble >></a>
+    <a href="./blog.php#aboutHyp" class="para paralink">Voir à quoi ça ressemble >></a>
     <br>
     <br>
 

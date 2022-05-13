@@ -37,7 +37,7 @@ $fifthBtn = "Contact";
 $firstBtnLink = "./index.php";
 $secondBtnLink = "./indi.php";
 $thirdBtnLink = "./blog.php";
-$fourthBtnLink;
+$fourthBtnLink = "https://raimond-code.com/rdv_test/";
 $fifthBtnLink = "#contact";
 /////////////////
 
@@ -61,7 +61,7 @@ include './includes/header.php';
     <p class="para title_blog">Premier rdv (20min) :</p>
     <li>Uniquement en visio</li>
     <li>Gratuit</li>
-    <button class="general_btn rdv_infoBtn"><a href="">Prendre RDV</a></button>
+    <button class="general_btn rdv_infoBtn"><a href="https://raimond-code.com/rdv_test/">Prendre RDV</a></button>
 
     <p class="para title_blog">Séance de suivi individuel (1h) :</p>
     <li>Au cabinet ou en Visio*</li>

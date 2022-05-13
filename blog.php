@@ -37,7 +37,7 @@ $fifthBtn = "Contact";
 $firstBtnLink = "./index.php";
 $secondBtnLink = "./info.php";
 $thirdBtnLink = "./indi.php";
-$fourthBtnLink;
+$fourthBtnLink = "https://raimond-code.com/rdv_test/";
 $fifthBtnLink = "#contact";
 /////////////////
 
@@ -48,7 +48,33 @@ include './includes/header.php';
 ?>
 
 <section>
-    <div class="img_text">
+  
+  	<div class="sep_bar"></div>
+    <a class="general_btn navIndexBtn" href="#questce">Qu'est-ce que<br>l'hypnose humaniste ?</a>
+    <a class="general_btn navIndexBtn" href="#voir">Voir à quoi ça ressemble ...</a>
+    <a class="general_btn navIndexBtn" href="#appSysBlog">Qu'est-ce que l'approche systémique ?</a>
+    <div class="sep_bar"></div>
+
+    <style>
+        .navIndexBtn{
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    margin: 40px auto;
+    background: #F5E5FF;
+    transition: .3s ease-in-out;
+    text-align: center;
+    color: #121C47;
+    font-weight: 500;
+}
+.navIndexBtn:hover{
+    padding: 1em;
+    transition: .3s ease-in-out;
+    color: skyblue;
+}
+    </style>
+  
+    <div class="img_text" id="questce">
         <img src="./assets/questceHypnose.jpg" class="img_imgtext">
         <p class="title_imgText">Qu'est-ce que l'hypnose humaniste ?</p>
     </div>
@@ -195,7 +221,7 @@ Le conscient est fait de perceptions. Il reconnait l’espace-temps grâce à no
     <p class="para">On dit que si on nettoie un grain de sable, c’est toute la plage qui en bénéficie car elle est devenue plus propre.</p>
 
     <div class="img_text" id="aboutHyp">
-        <img src="./assets/a_quoi_ressemble.jpg" class="img_imgtext">
+        <img src="./assets/a_quoi_ressemble.jpg" class="img_imgtext" id="voir">
         <p class="title_imgText">Voir à quoi ça ressemble...</p>
     </div>
 
@@ -490,7 +516,7 @@ lui qui « doit gérer ». Elle intervient quand son mari échoue…
     <div class="innerShSection">
         <p class="para">Ici : Vas y, gère ! Et en cas d’échec, j'interviendrai.</p>
     </div>
-
+	<br>
     <p class="para">En systémie, l’intervenant ne vise pas un grand changement. Il cherche avec le « client » un objectif minimal car il considère qu’un changement même minime modifiera l’ensemble du système. Cela permet également de respecter l’écologie de la personne.</p>
 
     <div class="innerShSection">

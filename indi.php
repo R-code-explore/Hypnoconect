@@ -37,7 +37,7 @@ $fifthBtn = "Contact";
 $firstBtnLink = "./index.php";
 $secondBtnLink = "./info.php";
 $thirdBtnLink = "./blog.php";
-$fourthBtnLink;
+$fourthBtnLink = "https://raimond-code.com/rdv_test/";
 $fifthBtnLink = "#contact";
 /////////////////
 
@@ -176,7 +176,7 @@ diagnostics, à prescrire, à modifier ou à supprimer tout traitement médical.
 vous a amené à me solliciter, vos
 attentes et vos motivations
             </p>
-            <button class="general_btn rdv_indiBtn"><a href="">Prendre RDV</a></button>
+            <button class="general_btn rdv_indiBtn"><a href="https://raimond-code.com/rdv_test/">Prendre RDV</a></button>
         </div>
 
         <div>

@@ -26,7 +26,7 @@
     <!--------->
 
     <!--Appel de JQuery-->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
     <!--------->
 
     <title><?=$pageTitle;?></title>
@@ -40,7 +40,7 @@
     <img class="logo_header" src="<?=$logoHeaderLink?>">
 
     <div class="icons">
-        <div class="icon_action icon1"><a href=""><img src=""><img src="./assets/calendar_icone.png"></a></div>
+        <div class="icon_action icon1"><a href="https://raimond-code.com/rdv_test/"><img src="./assets/calendar_icone.png"></a></div>
         <div class="icon_action icon2"><a href="tel:+336-03-51-90-45"><img src="./assets/phone_icone.png"></a></div>
         <div class="icon_action icon3"><a href="#localisation"><img src="./assets/localisation_icone.png"></a></div>
     </div>
@@ -176,40 +176,3 @@ z-index: 100;
 /************/
 
 </style>
-
-<script type="text/javascript">
-
-    //To the top BTN
-
-jQuery(function(){
-    $(function () {
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 200 ) {
-                $('#scrollUp').css('right','30px');
-            } else { 
-                $('#scrollUp').removeAttr( 'style' );
-            }
-        });
-    });
-});
-
-////
-
-//nav menu phone
-
-const navMenuPhone = document.querySelector('.nav_menu_phone')
-const navMenuBtn = document.querySelector('.nav_btn')
-
-navMenuBtn.addEventListener('click', () => {
-    if(navMenuPhone.style.display == "block"){
-        navMenuPhone.style.display = "none"
-    }else{
-        navMenuPhone.style.display = "block"
-    }
-})
-
-if(window.innerWidth > 1050){
-    navMenuPhone.style.display = "none"
-}
-
-</script>
