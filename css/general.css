@@ -31,7 +31,7 @@ p, a, input, li{font-family: 'Roboto'; font-weight: 300;}
     max-width: 950px;
     height: 1px;
     background: #F8DC4C;
-    margin: 80px auto;
+    margin: 40px auto;
 }
 
 .sep_bar_inSection{
@@ -70,7 +70,7 @@ section{
     position: relative;
     overflow: hidden;
     margin: 40px auto;
-    background:black;
+    background:#121C47;
 }
 .img_imgtext{
     width: 100%;
@@ -80,7 +80,7 @@ section{
 }
 .title_imgText{
     position: absolute;
-    color: white;
+    color: #F5E5FF;
     font-size: 1.5em;
     font-weight: 500;
     padding-right: 20px;

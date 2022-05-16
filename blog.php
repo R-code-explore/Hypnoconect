@@ -346,7 +346,7 @@ Le conscient est fait de perceptions. Il reconnait l’espace-temps grâce à no
         portera son pantalon craqué.
         </p>
     </div>
-
+    <p class="para"></p>
     <p class="para">Nos perceptions jouent un rôle essentiel dans la communication. Selon nos expériences de vie, l’environnement dans lequel nous avons évolué, nous avons, tous, un regard particulier sur les choses qui nous entourent. Nous considérons cette vision comme vraie dans la mesure où elle se vérifie au quotidien.</p>
 
     <p class="para">Un de mes proches a la conviction qu’il a toujours de la chance dans son malheur. Et devinez quoi ? Cette croyance se vérifie chaque fois qu’une situation répond à cette croyance. Un jour, alors qu’il conduisait pendant sa période de suspension de permis (la seule fois), pas de chance, une dame lui est rentré dedans. La police n’était pas loin. Il risquait de se voir prolonger sa période de suspension et bien il s’en est sorti avec une simple amende et l’assurance de la dame a remboursé la voiture. Incroyable !!</p>
@@ -377,7 +377,7 @@ le texte chaque fois que cela est nécessaire.</p>
 
     <p class="para title_blog">III. Les principes de la communication</p>
 
-    <p class="para">(D’après Une logique de la communication P. Watzlawick - J.H. Beavin - D.Jackson).</p>
+    <p class="para">(D’après <i>Une logique de la communication</i> P. Watzlawick - J.H. Beavin - D.Jackson).</p>
 
     <p class="para subTitle_blog">1. L’impossibilité de ne pas communiquer</p>
 
@@ -438,7 +438,6 @@ etc.</p>
     <br>
     <p class="para subTitle_blog">3. Ponctuation des séquences de communication</p>
     <p class="para">La communication est un système circulaire d'échanges. Le comportement de l'un des interlocuteurs induit le comportement de l'autre, qui lui-même influence le comportement du premier etc. Parfois nous faisons face à des situations qui amènent à des incompréhensions car nous n’avons pas à disposition tous les éléments nécessaires pour réagir de manière adéquate.</p>
-    <br>
     
     <div class="innerShSection">
         <p class="para title_blog">Exemple :</p>

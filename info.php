@@ -58,25 +58,29 @@ include './includes/header.php';
     <p class="para title_blog title_info">Tarifs</p>
     <div class="sep_bar"></div>
     
-    <p class="para title_blog">Premier rdv (20min) :</p>
+    <p class="para title_blog">Premier RDV (20min) :</p>
     <li>Uniquement en visio</li>
     <li>Gratuit</li>
     <button class="general_btn rdv_infoBtn"><a href="https://raimond-code.com/rdv_test/">Prendre RDV</a></button>
 
+    <br>
     <p class="para title_blog">Séance de suivi individuel (1h) :</p>
     <li>Au cabinet ou en Visio*</li>
     <li>75 €</li>
 
+    <br>
     <p class="para title_blog">Tarif réduit pour les adolescents et étudiants :</p>
     <li>Justificatif obligatoire</li>
     <li>50 €</li>
 
-    <p class="para title_blog">Accompagnement couple & famille (1h30) :</p>
+    <br>
+    <p class="para title_blog">Accompagnement couple & famille (1h30):</p>
     <li>Au cabinet ou en Visio*</li>
     <li>90 €</li>
-
     <p class="para">*Paiement préalable</p>
-    <p class="para">Moyens de paiement : espèces, CB, virement</p>
+    
+    <br>
+    <p class="para"><strong>Moyens de paiement : espèces, CB, virement</strong></p>
     <p class="para"><strong>NB :</strong> Cette prestation n’est pas remboursée par la Sécurité Sociale mais certaines mutuelles la prennent en charge : renseignez-vous auprès de la vôtre.</p>
 
     <div class="sep_bar"></div>
@@ -104,14 +108,11 @@ include './includes/header.php';
             <div class="textContain">
                 <p class="para"><u>En visio</u></p>
                 <p class="para">Même déroulement qu’au cabinet</p>
-                <ul>
                     <p><strong>Prérequis :</strong></p>
                     <li>PC ou tablette avec webcam</li>
                     <li>Une bonne connexion internet</li>
-                    <li>Application Zoom <a href="https://zoom.us/">à télécharger ici</a></li>
                     <li>Des écouteurs pour la pratique de l’hypnose</li>
                     <li>Un espace calme où vous ne risquez pas être dérangé(e)</li>
-                </ul>
             </div>
             
         </div>
@@ -123,9 +124,7 @@ include './includes/header.php';
     <p class="para">Les médecines douces ne se substituent pas à un avis médical. Seul un médecin est habilité à poser des diagnostics, à prescrire, à modifier ou à supprimer tout traitement médical.</p>
 
 </section>
-
-<div class="sep_bar"></div>
-
+<br>
 <?php
 
 include './includes/footer.php';

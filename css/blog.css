@@ -17,7 +17,7 @@ li{
     max-width: 850px;
     margin: auto;
     margin-bottom: 40px;
-    color: white;
+    color: #F5E5FF;
 }
 .humanPoints div{
     width: 100%;
@@ -186,7 +186,9 @@ li{
     top:0;
     color: white;
     padding: 15px;
-}.textContain li, .textContain p{color: white; font-weight: 500; font-size: .8em;}
+}.textContain li, .textContain p{color: white; font-size: .8em;}
+
+.textContain u{font-weight: 500;}
 
 @media (min-width: 1050px){
     .infoImgDeroulDiv{
@@ -206,7 +208,7 @@ li{
 
     .textContain li{margin-left:10px;}
 
-    .textContain li, .textContain p{color: white; font-weight: 500; font-size: 1em;}
+    .textContain li, .textContain p{color: white; font-size: 1em;}
 }
 
 /**********/

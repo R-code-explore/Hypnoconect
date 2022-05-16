@@ -134,7 +134,7 @@ Un problème sans solution est un problème mal posé " A. Einstein</i></p>
     <div class="carousel-item">
             <img src="./assets/indiImg4.jpg">
             <p class="para">
-            Ou simplement pour votre <br>
+            Ou simplement pour votre
             <strong>développement personnel…</strong>
             </p>
     </div>
@@ -198,7 +198,7 @@ systémique</p>
     <br><br>
 
 <style>
-    .indi_paraBlue{color: white;}
+    .indi_paraBlue{color: #F5E5FF;}
 
     .underImageTexte{text-align: center;}
 
