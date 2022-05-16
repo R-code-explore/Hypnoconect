@@ -141,7 +141,6 @@ li{
 }
 
 .innerShSection{
-    padding: 15px;
     width: 100%;
 
     box-shadow: inset 0px 5px 10px 0px rgba(97, 0, 86, 0.5);
@@ -149,6 +148,9 @@ li{
 
 }.innerShSection .title_blog{
     font-size: 1em;
+}
+.innerShSection p, .innerShSection img{
+    padding: 15px;
 }
 
 /*Info page*/
