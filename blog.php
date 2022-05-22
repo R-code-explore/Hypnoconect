@@ -37,7 +37,7 @@ $fifthBtn = "Contact";
 $firstBtnLink = "./index.php";
 $secondBtnLink = "./info.php";
 $thirdBtnLink = "./indi.php";
-$fourthBtnLink = "https://raimond-code.com/rdv_test/";
+$fourthBtnLink = "./rendez_vous.php";
 $fifthBtnLink = "#contact";
 /////////////////
 
@@ -93,7 +93,7 @@ include './includes/header.php';
             <ul>
                 <li>Augmente la cassure naturelle entre le Conscient et l’Inconscient ;</li>
                 <li>Etat Modifié de Conscience ;</li>
-                <li>S’adresse à l’Inconscient</li>
+                <li>S’adresse à l’Inconscient ;</li>
                 <li>Approche individuelle.</li>
             </ul>
         </div>
@@ -103,7 +103,7 @@ include './includes/header.php';
                 <li>Réduit cette frontière pour aider la personne à se réunifier ;</li>
                 <li>Etat de Conscience Augmentée ;</li>
                 <li>Accompagne la personne pour gagner en conscience. Elle garde le contrôle puisque c’est elle qui intervient sur elle-même ;</li>
-                <li>Approche globale</li>
+                <li>Approche globale ;</li>
                 <li>Travaille avec les symboles que la personne choisit de supprimer ou de transformer jusqu’à se sentir mieux ;</li>
                 <li>Se pratique aussi bien en thérapie qu’en coaching.</li>
             </ul>

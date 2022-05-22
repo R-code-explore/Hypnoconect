@@ -37,7 +37,7 @@ $fifthBtn = "Contact";
 $firstBtnLink = "./index.php";
 $secondBtnLink = "./info.php";
 $thirdBtnLink = "./blog.php";
-$fourthBtnLink = "https://raimond-code.com/rdv_test/";
+$fourthBtnLink = "./rendez_vous.php";
 $fifthBtnLink = "#contact";
 /////////////////
 
@@ -110,7 +110,7 @@ Un problème sans solution est un problème mal posé " A. Einstein</i></p>
     <div class="carousel-item">
             <img src="./assets/indiImg2.jpg">
             <p class="para">
-                <strong>Liées au comportement :</strong><br> addictions, compulsions, troubles
+                <strong>Liées au comportement :</strong> addictions, compulsions, troubles
                 alimentaires, troubles du sommeil,
                 troubles de concentration, troubles
                 sexuels…
@@ -176,7 +176,7 @@ diagnostics, à prescrire, à modifier ou à supprimer tout traitement médical.
 vous a amené à me solliciter, vos
 attentes et vos motivations
             </p>
-            <button class="general_btn rdv_indiBtn"><a href="https://raimond-code.com/rdv_test/">Prendre RDV</a></button>
+            <button class="general_btn rdv_indiBtn"><a href="./rendez_vous.php">Prendre RDV</a></button>
         </div>
 
         <div>

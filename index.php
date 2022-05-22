@@ -36,7 +36,7 @@ $fifthBtn = "Contact";
 
 $firstBtnLink = "./info.php";
 $secondBtnLink = "./indi.php";
-$thirdBtnLink = "https://raimond-code.com/rdv_test/";
+$thirdBtnLink = "./rendez_vous.php";
 $fourthBtnLink = "./blog.php";
 $fifthBtnLink = "#contact";
 /////////////////
@@ -54,7 +54,7 @@ include './includes/header.php';
         grâce à l’hypnose humaniste et
         l’approche systémique…</p>
 
-        <a class="general_btn banner_btn" href="https://raimond-code.com/rdv_test/">Prendre rendez-vous</a>
+        <a class="general_btn banner_btn" href="./rendez_vous.php">Prendre RDV</a>
     </div>
 </div>
 
@@ -63,7 +63,7 @@ include './includes/header.php';
 <section class="underBanner_section">
     <p class="questions_underBanner">Stressé(e) ? Fatigué(e) ? Submergé(e) ?<br><br>Vous cherchez à prendre du recul sur une situation ? à avancer dans votre vie plus sereinement ? à
 (re)trouver une certaine qualité dans vos relations ? Un certain sens dans vos actions ?</p>
-    <button class="general_btn link_underBanner"><a href="https://raimond-code.com/rdv_test/">1er rdv de 20 min gratuit sans engagement en visio</a></button>
+    <button class="general_btn link_underBanner"><a href="./rendez_vous.php">1er rdv de 20 min gratuit sans engagement en visio</a></button>
     <p class="para p_underBanner">Ce 1er rdv nous permet de faire connaissance et de comprendre les raisons qui vous ont amené à me
 solliciter. Ensuite, à vous de choisir, si vous souhaitez poursuivre ou non cet accompagnement.</p>
 </section>
