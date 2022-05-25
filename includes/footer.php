@@ -4,7 +4,7 @@
     
     <div id="contact" class="contact">
     <h5 class="contact-title titles">Contact et infos</h5>
-        <form method="post" action="./msg_send.php" enctype="multipart/form-data">
+        <form method="post" action="./msg_send.php">
             <input class="text_input" type="text" name="name" placeholder="Votre nom et prénom">
             <input class="text_input" type="email" name="email" placeholder="Votre email">
             <input class="text_input" type="tel" name="tel" placeholder="votre numéro de téléphone">
@@ -13,8 +13,8 @@
             <button class="contactBtn general_btn" type="submit">Envoyer le message</button>
         </form>
 
-        <form method="post" action="./session/file_send.php" enctype="multipart/form-data">
-            <input class="file_input" name="file" type="file">
+        <form method="POST" action="./session/file_send.php" enctype="multipart/form-data">
+            <input class="file_input" name="upfile" type="file">
 
             <button class="contactBtn general_btn" type="submit">Envoyer le justificatif</button>
         </form>

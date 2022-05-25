@@ -34,7 +34,6 @@ if(!isset($_SESSION["user"]["id"]) == 1){
 </div>
 
 <a class="general_btn" href="#msg">Voir les messages</a>
-<a class="general_btn" href="">Voir les justificatifs</a>
 <a class="general_btn" href="">Gérer mon blog</a>
 <a class="general_btn" href="./singout.php">Déconnexion</a>
 
@@ -63,12 +62,6 @@ if(!isset($_SESSION["user"]["id"]) == 1){
         </div>
 
     <?php endforeach; ?>    
-</div>
-
-<div class="justificatif">
-
-    
-
 </div>
 
 <div class="blog"></div>
