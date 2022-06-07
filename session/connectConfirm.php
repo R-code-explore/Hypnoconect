@@ -30,8 +30,6 @@ if(!empty($_POST)){
 
         if(!password_verify($_POST["password"], $user["mdp"])){
             die("mot de passe incorrect");
-        }else{
-            echo "ok";
         }
 
         //User et mot de passe corrects

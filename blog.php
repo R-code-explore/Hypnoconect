@@ -371,6 +371,8 @@ le texte chaque fois que cela est nécessaire.</p>
 
     <img class="blog_img" src="./assets/blog_img2.PNG">
 
+    <p class="para">Réponse : Ce texte manque d'informations pour répondre vrai ou faux à toutes les propositions sauf à la première.</p>
+
     </div>
 
     <div class="sep_bar"></div>

@@ -1,5 +1,33 @@
 <div class="footer">
+    <div class="social_medias">
+        <a class="social_links" href="https://m.facebook.com/HypnoConect/">Facebook Hypnoconect <i class="gg-facebook"></i></a>
+        <a class="social_links" href="https://www.instagram.com/hypnoconect/?hl=fr">Instagram Hypnoconect <i class="gg-instagram"></i></a>
 
+        <style>
+            .social_medias{
+                display: block;
+                border: 1px solid #F5E5FF;
+                border-radius: 5px;
+                width: 80%;
+                max-width: 450px;
+                padding: 10px 10px;
+                margin: 40px auto;
+            }
+            .social_links{
+                display: flex;
+                text-decoration: none;
+                color: #F5E5FF;
+                width: 100%;
+                margin: 10px auto;
+                justify-content: center;
+                font-weight: 500;
+            }
+            .social_links i{
+                margin-left:10px;
+            }
+        </style>
+
+    </div>
     <div class="contact_box">
     
     <div id="contact" class="contact">
@@ -13,11 +41,11 @@
             <button class="contactBtn general_btn" type="submit">Envoyer le message</button>
         </form>
 
-        <form method="POST" action="./session/file_send.php" enctype="multipart/form-data">
+        <!-- <form method="POST" action="./session/file_send.php" enctype="multipart/form-data">
             <input class="file_input" name="upfile" type="file">
 
             <button class="contactBtn general_btn" type="submit">Envoyer le justificatif</button>
-        </form>
+        </form> -->
     </div>
 
     <div class="footer_logo">

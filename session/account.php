@@ -1,9 +1,9 @@
 <?php
-session_start();
-if(!isset($_SESSION["user"]["id"]) == 1){
-    header('Location: ../index.php');
-    exit;
-}
+//session_start();
+//if(!isset($_SESSION["user"]["id"]) == 1){
+//    header('Location: ../index.php');
+//    exit;
+//}
 
 ?>
 <!DOCTYPE html>
@@ -35,10 +35,64 @@ if(!isset($_SESSION["user"]["id"]) == 1){
 
 <a class="general_btn" href="#msg">Voir les messages</a>
 <a class="general_btn" href="">Gérer mon blog</a>
+<a class="general_btn" href="../rendez_vous/wp-admin/admin.php?page=wappointment_settings#/calendars/">Calendrier wordpress</a>
 <a class="general_btn" href="./singout.php">Déconnexion</a>
 
 <div class="msg" id="msg">
     <h5>Section messages</h5>
+    <button type="button" class="btn btn-warning" id="delete_msg" onclick="openDelete()">Supprimer les messages</button>
+    <div class="close_delete_msg" id="open_delete_msg">
+        <p>Supprimer définitivement les messages affichés ?</p>
+        <div class="buttons_delete_group">
+            <form method="post" action="delete_msg.php">
+                <button type="button" class="btn btn-success" onclick="stopDelete()">Annuler</button>
+                <button type="submit" class="btn btn-danger">Supprimer</button>
+            </form>
+        </div>
+    </div>
+    <style>
+        #delete_msg{
+            color: white;
+        }
+        #delete_msg:hover{
+            color: black;
+        }
+
+        .close_delete_msg{
+            display: none;
+        }
+        
+        .open_delete_msg{
+            display: block;
+            width: 80%;
+            max-width: 650px;
+            position: absolute;
+            top: 350px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 20px;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+    </style>
+
+    <script type="text/javascript">
+        const openDeleteMsgSection = document.getElementById('open_delete_msg')
+
+        function openDelete(){
+            openDeleteMsgSection.classList.add('open_delete_msg')
+            openDeleteMsgSection.classList.remove('close_delete_msg')
+        }
+
+        function stopDelete(){
+            openDeleteMsgSection.classList.add('close_delete_msg')
+            openDeleteMsgSection.classList.remove('open_delete_msg')
+        }
+    </script>
+
+    <br>
+    <br>
     <?php
         require_once '../connect.php';
 
@@ -85,6 +139,10 @@ if(!isset($_SESSION["user"]["id"]) == 1){
         width: 80%;
         max-width: 850px;
         margin: 40px auto;
+    }
+    .msg h5{
+        display:block;
+        text-align: center;
     }
     .message{
         display: block;

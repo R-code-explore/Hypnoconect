@@ -23,6 +23,8 @@
     <!--Page's css-->
     <link rel="stylesheet" href="<?=$pageCss?>">
 
+    <link href='https://css.gg/css' rel='stylesheet'>
+
     <!--------->
 
     <!--Appel de JQuery-->

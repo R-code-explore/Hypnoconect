@@ -149,9 +149,11 @@ li{
 }.innerShSection .title_blog{
     font-size: 1em;
 }
+.innerShSection p{width:100%;}
 .innerShSection p, .innerShSection img{
     padding: 15px;
 }
+.innerShSection p{padding-right:15px;}
 
 /*Info page*/
 
