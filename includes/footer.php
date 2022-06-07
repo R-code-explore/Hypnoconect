@@ -12,6 +12,7 @@
                 max-width: 450px;
                 padding: 10px 10px;
                 margin: 40px auto;
+                transition: .3s ease-in-out;
             }
             .social_links{
                 display: flex;
@@ -25,9 +26,63 @@
             .social_links i{
                 margin-left:10px;
             }
+
+            .pay_link_close{
+                display: none;
+                transition: .3s ease-in-out;
+            }
+
+            .pay_links{
+                background: #F5E5FF;
+                border: none;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                text-decoration: none;
+                color: #121C47;
+                font-weight: 500;
+            }
+            .pay_links:hover{background: white; color: skyblue;}
+
+            .open_pay_link{
+                background: #F5E5FF;
+                color: #121C47;
+                display: block;
+                text-align: center;
+                margin: auto;
+            }
+
+            .text_open_links{
+                display: block;
+                text-align: center;
+                color: #F5E5FF;
+            }
+
         </style>
 
     </div>
+    <button class="open_pay_link btn" onclick="openPayLinks()">Procéder à un paiement</button>
+    <p class="para text_open_links">Non fonctionnel pour le moment</p>
+    <div class="social_medias pay_link_close" id="payLinks">
+        <button class="close_pay_link btn btn-danger" onclick="closePayLinks()">Fermer</button>
+        <a class="pay_links btn btn-success" href="">Lien de paiement pour " Séance de suivi individuel " ( 1h ) - 75€</a>
+        <a class="pay_links btn btn-success" href="">Lien de paiement pour " Séance tarif réduit - Adolescents et étudiants " ( 1h ) - 50€</a>
+        <a class="pay_links btn btn-success" href="">Lien de paiement pour " Séance accompagnement couple & famille " ( 1h30 ) - 90€</a>
+    </div>
+
+    <script type="text/javascript">
+        
+        const payLinks = document.getElementById('payLinks')
+
+        function openPayLinks(){
+            payLinks.classList.remove('pay_link_close')
+        }
+
+        function closePayLinks(){
+            payLinks.classList.add('pay_link_close')
+        }
+    
+    </script>
+
     <div class="contact_box">
     
     <div id="contact" class="contact">
