@@ -40,6 +40,7 @@
                 text-decoration: none;
                 color: #121C47;
                 font-weight: 500;
+                display: block;
             }
             .pay_links:hover{background: white; color: skyblue;}
 
@@ -61,12 +62,11 @@
 
     </div>
     <button class="open_pay_link btn" onclick="openPayLinks()">Procéder à un paiement</button>
-    <p class="para text_open_links">Non fonctionnel pour le moment</p>
     <div class="social_medias pay_link_close" id="payLinks">
         <button class="close_pay_link btn btn-danger" onclick="closePayLinks()">Fermer</button>
-        <a class="pay_links btn btn-success" href="">Lien de paiement pour " Séance de suivi individuel " ( 1h ) - 75€</a>
-        <a class="pay_links btn btn-success" href="">Lien de paiement pour " Séance tarif réduit - Adolescents et étudiants " ( 1h ) - 50€</a>
-        <a class="pay_links btn btn-success" href="">Lien de paiement pour " Séance accompagnement couple & famille " ( 1h30 ) - 90€</a>
+        <a class="pay_links btn btn-success" href="https://buy.stripe.com/fZebJJeNobUM3qEfYY">Lien de paiement pour : <br>" Séance de suivi individuel " - 75€</a>
+        <a class="pay_links btn btn-success" href="https://buy.stripe.com/aEU6ppdJkbUM9P29AB">Lien de paiement pour :<br>" Tarif réduit adolescents et étudiants " - 50€</a>
+        <a class="pay_links btn btn-success" href="https://buy.stripe.com/8wM9BBcFgaQI5yM5km">Lien de paiement pour :<br>" Accompagnement couple & famille (1h30) " - 90€</a>
     </div>
 
     <script type="text/javascript">
