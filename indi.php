@@ -37,7 +37,7 @@ $fifthBtn = "Contact";
 $firstBtnLink = "./index.php";
 $secondBtnLink = "./info.php";
 $thirdBtnLink = "./blog.php";
-$fourthBtnLink = "./rendez_vous.php";
+$fourthBtnLink = "https://hypnoconect.com/rendez_vous/";
 $fifthBtnLink = "#contact";
 /////////////////
 
@@ -176,7 +176,7 @@ diagnostics, à prescrire, à modifier ou à supprimer tout traitement médical.
 vous a amené à me solliciter, vos
 attentes et vos motivations
             </p>
-            <button class="general_btn rdv_indiBtn"><a href="./rendez_vous.php">Prendre RDV</a></button>
+            <button class="general_btn rdv_indiBtn"><a href="https://hypnoconect.com/rendez_vous/">Prendre RDV</a></button>
         </div>
 
         <div>

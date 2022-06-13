@@ -42,7 +42,7 @@
     <img class="logo_header" src="<?=$logoHeaderLink?>">
 
     <div class="icons">
-        <div class="icon_action icon1"><a href="./rendez_vous.php"><img src="./assets/calendar_icone.png"></a></div>
+        <div class="icon_action icon1"><a href="https://hypnoconect.com/rendez_vous/"><img src="./assets/calendar_icone.png"></a></div>
         <div class="icon_action icon2"><a href="tel:+336-03-51-90-45"><img src="./assets/phone_icone.png"></a></div>
         <div class="icon_action icon3"><a href="#localisation"><img src="./assets/localisation_icone.png"></a></div>
     </div>

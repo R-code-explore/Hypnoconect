@@ -37,7 +37,7 @@ $fifthBtn = "Contact";
 $firstBtnLink = "./index.php";
 $secondBtnLink = "./info.php";
 $thirdBtnLink = "./indi.php";
-$fourthBtnLink = "./rendez_vous.php";
+$fourthBtnLink = "https://hypnoconect.com/rendez_vous/";
 $fifthBtnLink = "#contact";
 /////////////////
 
